@@ -9,10 +9,7 @@ nav a:not(:first-child){
 footer{
 }
 
-.footer-decoration{
-	
-	padding-top: 2%;
-	padding-bottom: 2%;
+.footer-decoration{	
 	border-top: 1px solid grey;
 }
 
