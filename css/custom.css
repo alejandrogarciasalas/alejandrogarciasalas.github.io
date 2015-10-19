@@ -1,3 +1,22 @@
+nav{
+	margin-top: 1%;
+}
+
+nav a:not(:first-child){
+	padding-left: 3%;
+}
+
+footer{
+}
+
+.footer-decoration{
+	
+	padding-top: 2%;
+	padding-bottom: 2%;
+	border-top: 1px solid grey;
+}
+
 .text-center{
 	text-align: center;
 }
+
