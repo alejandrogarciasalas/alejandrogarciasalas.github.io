@@ -1,18 +1,27 @@
-nav{
-	margin-top: 1%;
+
+nav a{
+	text-decoration: none;
+	color: rgba(61,70,77,0.6);
 }
+nav a:hover{
+	color: #3d464d;
+}	
 
 nav a:not(:first-child){
 	padding-left: 3%;
 }
 
 footer{
+	color: #3d464d;
+}
+
+footer a{
 }
 
 .footer-decoration{
 	padding-top: 2%;
 	padding-bottom: 2%;
-	border-top: 1px solid grey;
+	border-top: 1px solid rgba(61,70,77,0.1);
 }
 
 .text-center{
