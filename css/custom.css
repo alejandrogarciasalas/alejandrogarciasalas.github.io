@@ -1,3 +1,6 @@
+nav{
+	float: right;
+}
 
 nav a{
 	text-decoration: none;
@@ -24,7 +27,12 @@ footer a{
 	border-top: 1px solid rgba(61,70,77,0.1);
 }
 
+/*Utlities*/
+
 .text-center{
 	text-align: center;
 }
 
+.pull-right{
+	float: right;
+}
