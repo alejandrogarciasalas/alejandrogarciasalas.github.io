@@ -52,6 +52,11 @@ footer a{
 	font-weight: 700;
 }
 
+.light-grey{
+	color: rgba(61,70,77,0.6);
+}
+
+
 .clearfix:after {
      visibility: hidden;
      display: block;
