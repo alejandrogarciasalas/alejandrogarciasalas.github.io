@@ -40,6 +40,18 @@ footer a{
 	float: right;
 }
 
+.weight-thin{
+	font-weight: 300;
+}
+
+.weight-regular{
+	font-weight: 400;
+}
+
+.weight-bold{
+	font-weight: 700;
+}
+
 .clearfix:after {
      visibility: hidden;
      display: block;
