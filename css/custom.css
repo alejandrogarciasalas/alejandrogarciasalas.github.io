@@ -1,6 +1,6 @@
 nav{
 	float: right;
-	width: 54%;
+	width: 56%;
 	display: inline-block;
 }
 
@@ -14,7 +14,7 @@ nav a:hover{
 }	
 
 nav a:not(:first-child){
-	padding-left: 3%;
+	padding-left: 7%;
 }
 
 footer{
