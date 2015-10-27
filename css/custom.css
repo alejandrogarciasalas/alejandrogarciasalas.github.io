@@ -8,7 +8,10 @@
 }
 
 @media (min-width: 550px) {
-	.site-title { text-align: left; }
+	.site-title { 
+		text-align: left; 
+		margin: 0;
+	}
 }
 
 
