@@ -66,6 +66,13 @@ nav{
 /*FOOTER*/
 footer{
 	color: #3d464d;
+	margin: 6% 0 19.24% 0;
+}
+
+@media (min-width: 550px) {
+  footer{
+  	margin: 4% 0 7% 0;
+  }
 }
 
 .footer-decoration{
