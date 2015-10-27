@@ -49,8 +49,9 @@ nav{
 @media (min-width: 550px) {
 	nav{
 		float: right;
-		width: 58%;
+		width: 100%;
 		display: inline-block;
+		text-align: right;
 	}
 }
 
