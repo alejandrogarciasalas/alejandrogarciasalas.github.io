@@ -1,13 +1,35 @@
-nav{
-	float: right;
-	width: 56%;
-	display: inline-block;
+/*HEADER*/
+
+
+/*Site title & logo*/
+.site-title{
+	text-align: center;
+	margin-top: 4%;
 }
 
+@media (min-width: 550px) {
+	.site-title { text-align: left; }
+}
+
+
+.site-logo{
+	font-size: 2.4rem; line-height: 1.5;  letter-spacing: -.05rem;
+	text-decoration: None;
+}
+
+.site-logo:hover{
+	color: black;
+}
+
+@media (min-width: 550px) {
+	.site-logo { font-size: 2.4rem; }
+}
+
+
+/*Navigation*/
 nav a{
 	text-decoration: none;
 	color: rgba(61,70,77,0.6);
-	/*float: right;*/
 }
 nav a:hover{
 	color: #3d464d;
@@ -17,11 +39,30 @@ nav a:not(:first-child){
 	padding-left: 7%;
 }
 
-footer{
-	color: #3d464d;
+nav{
+	text-align: center;
 }
 
-footer a{
+@media (min-width: 550px) {
+	nav{
+		float: right;
+		width: 100%;
+		display: inline-block;
+	}
+}
+
+/*MAIN*/
+.main-title{
+	font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem;
+}
+
+@media (min-width: 550px) {
+  .main-title { font-size: 2.4rem; }
+}
+
+/*FOOTER*/
+footer{
+	color: #3d464d;
 }
 
 .footer-decoration{
@@ -30,15 +71,7 @@ footer a{
 	border-top: 1px solid rgba(61,70,77,0.1);
 }
 
-/*Utlities*/
-
-.text-center{
-	text-align: center;
-}
-
-.pull-right{
-	float: right;
-}
+/* Typography */
 
 .weight-thin{
 	font-weight: 300;
@@ -48,27 +81,12 @@ footer a{
 	font-weight: 400;
 }
 
-.weight-bold{
-	font-weight: 700;
-}
-
 .light-grey{
 	color: rgba(61,70,77,0.6);
 }
 
+/*Utlities*/
 
-.clearfix:after {
-     visibility: hidden;
-     display: block;
-     font-size: 0;
-     content: " ";
-     clear: both;
-     height: 0;
-     }
-.clearfix { display: inline-block; }
-/* start commented backslash hack \*/
-* html .clearfix { height: 1%; }
-.clearfix { display: block; }
-/* close commented backslash hack */
-
-
+.text-center{
+	text-align: center;
+}
