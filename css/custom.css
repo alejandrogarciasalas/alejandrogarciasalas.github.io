@@ -1,21 +1,8 @@
+body{
+	padding: 1.7rem;
+}
+
 /*HEADER*/
-.narrow{
-	margin: 0 1% 0 1%;
-}
-
-/* Larger than mobile */
-@media (min-width: 400px) {
-	.narrow{
-		margin: 0 2% 0 2%;
-	}	
-}
-
-/* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {
-	.narrow{
-		margin: 0 2% 0 2%;
-	}
-}
 
 /* Larger than tablet */
 @media (min-width: 750px) {
@@ -31,9 +18,7 @@
 	}	
 }
 
-
-
-/*Site title & logo*/
+/*Site title*/
 .site-title{
 	text-align: center;
 	margin-top: 4%;
@@ -41,15 +26,15 @@
 
 @media (min-width: 550px) {
 	.site-title { 
-		text-align: left; 
 		margin: 0;
+		text-align: left; 
 	}
 }
 
-
+/*Site Logo*/
 .site-logo{
-	font-size: 2.4rem; line-height: 1.5;  letter-spacing: -.05rem;
 	text-decoration: None;
+	font-size: 2.4rem; line-height: 1.5;  letter-spacing: -.05rem;
 }
 
 .site-logo:hover{
@@ -66,6 +51,7 @@ nav a{
 	text-decoration: none;
 	color: rgba(61,70,77,0.6);
 }
+
 nav a:hover{
 	color: #3d464d;
 }	
@@ -89,6 +75,7 @@ nav{
 
 /*MAIN*/
 .main-title{
+	font-weight: 400;
 	font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem;
 }
 
@@ -97,20 +84,8 @@ nav{
 }
 
 /*FOOTER*/
-footer{
-	color: #3d464d;
-	margin: 6% 0 19.24% 0;
-}
-
-@media (min-width: 550px) {
-  footer{
-  	margin: 4% 0 7% 0;
-  }
-}
-
 .footer-decoration{
 	padding-top: 2%;
-	padding-bottom: 2%;
 	border-top: 1px solid rgba(61,70,77,0.1);
 }
 
@@ -118,10 +93,6 @@ footer{
 
 .weight-thin{
 	font-weight: 300;
-}
-
-.weight-regular{
-	font-weight: 400;
 }
 
 .light-grey{
