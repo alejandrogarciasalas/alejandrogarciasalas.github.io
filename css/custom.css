@@ -1,4 +1,36 @@
 /*HEADER*/
+.narrow{
+	margin: 0 1% 0 1%;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+	.narrow{
+		margin: 0 2% 0 2%;
+	}	
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+	.narrow{
+		margin: 0 2% 0 2%;
+	}
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+	.narrow{
+		margin: 0 7% 0 7%;
+	}
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+	.narrow{
+		margin: 0 17.3333333333% 0 17.3333333333%;
+	}	
+}
+
 
 
 /*Site title & logo*/
