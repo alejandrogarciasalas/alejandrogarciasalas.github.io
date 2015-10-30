@@ -104,3 +104,50 @@ nav{
 .text-center{
 	text-align: center;
 }
+
+
+
+.cl-effect-5 a {
+	position: relative;
+	display: inline-block;
+	outline: none;
+}
+
+.cl-effect-5 a:hover,
+.cl-effect-5 a:focus {
+	outline: none;
+}
+
+
+/* Effect 5: same word slide in */
+.cl-effect-5 a {
+	overflow: hidden;
+	width: 100%;
+}
+
+.cl-effect-5 a span {
+	text-decoration: underline;
+	position: relative;
+	display: inline-block;
+	-webkit-transition: -webkit-transform 0.3s;
+	-moz-transition: -moz-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+.cl-effect-5 a span::before {
+	text-decoration: underline;
+	position: absolute;
+	top: 100%;
+	content: attr(data-hover);
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+	right: -100%;
+}
+
+.cl-effect-5 a:hover span,
+.cl-effect-5 a:focus span {
+	-webkit-transform: translateY(-100%);
+	-moz-transform: translateY(-100%);
+	transform: translateY(-100%);
+}
