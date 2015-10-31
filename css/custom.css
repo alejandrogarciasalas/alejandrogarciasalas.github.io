@@ -14,7 +14,7 @@ body{
 /* Larger than desktop */
 @media (min-width: 1000px) {
 	.narrow{
-		margin: 0 16.3333333333% 0 16.3333333333%;
+		margin: 0 17.3333333333% 0 17.3333333333%;
 	}	
 }
 
