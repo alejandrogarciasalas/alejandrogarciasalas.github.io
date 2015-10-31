@@ -125,7 +125,7 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "NeueHaasGroteskText Pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #3d464d; }
+  color: black; }
 
 
 /* Typography
@@ -159,7 +159,7 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #3d464d; }
+  color: black; }
 a:hover {
   color: #0064DC; }
 

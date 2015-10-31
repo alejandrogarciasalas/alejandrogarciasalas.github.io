@@ -7,42 +7,36 @@ body{
 /* Larger than tablet */
 @media (min-width: 750px) {
 	.narrow{
-		margin: 0 7% 0 7%;
+		margin: 0 6% 0 6%;
 	}
 }
 
 /* Larger than desktop */
 @media (min-width: 1000px) {
 	.narrow{
-		margin: 0 17.3333333333% 0 17.3333333333%;
+		margin: 0 16.3333333333% 0 16.3333333333%;
 	}	
-}
-
-/*Site title*/
-.site-title{
-	text-align: center;
-	margin-top: 4%;
-}
-
-@media (min-width: 550px) {
-	.site-title { 
-		margin: 0;
-		text-align: left; 
-	}
 }
 
 /*Site Logo*/
 .site-logo{
 	text-decoration: None;
-	font-size: 2.4rem; line-height: 1.5;  letter-spacing: -.05rem;
+	font-weight: 600;
+	font-size: 4rem;
+	/*line-height: 10px;*/
+	color: black; 
 }
 
 .site-logo:hover{
 	color: black;
 }
 
+
+/* Larger than tablet */
 @media (min-width: 550px) {
-	.site-logo { font-size: 2.4rem; }
+	.site-logo{
+		font-size: 4.4rem;
+	}
 }
 
 
@@ -62,25 +56,6 @@ nav a:not(:first-child){
 
 nav{
 	text-align: center;
-}
-
-@media (min-width: 550px) {
-	nav{
-		float: right;
-		width: 90%;
-		display: inline-block;
-		text-align: right;
-	}
-}
-
-/*MAIN*/
-.main-title{
-	font-weight: 400;
-	font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem;
-}
-
-@media (min-width: 550px) {
-  .main-title { font-size: 2.4rem; }
 }
 
 /*FOOTER*/
