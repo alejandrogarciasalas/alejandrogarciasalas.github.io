@@ -23,7 +23,6 @@ body{
 	text-decoration: None;
 	font-weight: 600;
 	font-size: 4rem;
-	/*line-height: 10px;*/
 	color: black; 
 }
 
@@ -58,6 +57,13 @@ nav{
 	text-align: center;
 }
 
+
+/*MAIN*/
+main{
+	font-family: 'Circular Book';
+}
+
+
 /*FOOTER*/
 .footer-decoration{
 	padding-top: 2%;
@@ -81,6 +87,7 @@ nav{
 }
 
 
+/*Slide in effect*/
 
 .cl-effect-5 a {
 	position: relative;
