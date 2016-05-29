@@ -1,25 +1,23 @@
 
-/*Slide in effect*/
+/*Word Slide In*/
 
-.slide-in-effect a {
+.word-slide-in a {
 	position: relative;
 	display: inline-block;
 	outline: none;
 }
 
-.slide-in-effect a:hover,
-.slide-in-effect a:focus {
+.word-slide-in a:hover,
+.word-slide-in a:focus {
 	outline: none;
 }
 
-
-/* Effect 5: same word slide in */
-.slide-in-effect a {
+.word-slide-in a {
 	overflow: hidden;
 	width: 100%;
 }
 
-.slide-in-effect a span {
+.word-slide-in a span {
 	text-decoration: underline;
 	position: relative;
 	display: inline-block;
@@ -28,7 +26,7 @@
 	transition: transform 0.3s;
 }
 
-.slide-in-effect a span::before {
+.word-slide-in a span::before {
 	text-decoration: underline;
 	position: absolute;
 	top: 100%;
@@ -39,8 +37,8 @@
 	right: -100%;
 }
 
-.slide-in-effect a:hover span,
-.slide-in-effect a:focus span {
+.word-slide-in a:hover span,
+.word-slide-in a:focus span {
 	-webkit-transform: translateY(-100%);
 	-moz-transform: translateY(-100%);
 	transform: translateY(-100%);
