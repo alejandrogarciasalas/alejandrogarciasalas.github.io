@@ -23,13 +23,8 @@ body{
 	text-decoration: None;
 	font-weight: 600;
 	font-size: 4rem;
-	color: #333333; 
+	color: black; 
 }
-
-.site-logo:hover{
-	color: black;
-}
-
 
 /* Larger than tablet */
 @media (min-width: 550px) {
@@ -66,6 +61,6 @@ main{
 
 /*FOOTER*/
 .footer-decoration{
-	padding-top: 2%;
+	padding-top: 3%;
 	border-top: 1px solid rgba(61,70,77,0.1);
 }
