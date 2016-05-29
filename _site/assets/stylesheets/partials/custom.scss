@@ -2,7 +2,7 @@ body{
 	padding: 1.75rem;
 }
 
-/*HEADER*/
+/* HEADER */
 
 /* Larger than tablet */
 @media (min-width: 750px) {
@@ -18,7 +18,7 @@ body{
 	}	
 }
 
-/*Site Logo*/
+/* Site Logo */
 .site-logo{
 	text-decoration: None;
 	font-weight: 600;
@@ -39,7 +39,7 @@ body{
 }
 
 
-/*Navigation*/
+/* NAVIGATION */
 nav a{
 	text-decoration: none;
 	color: rgba(61,70,77,0.6);
@@ -64,7 +64,7 @@ main{
 }
 
 
-/*FOOTER*/
+/* FOOTER */
 .footer-decoration{
 	padding-top: 2%;
 	border-top: 1px solid rgba(61,70,77,0.1);
@@ -80,34 +80,34 @@ main{
 	color: rgba(61,70,77,0.6);
 }
 
-/*Utlities*/
+/* Utlities */
 
 .text-center{
 	text-align: center;
 }
 
 
-/*Slide in effect*/
+/* Slide in effect */
 
-.cl-effect-5 a {
+.word-slide-in a {
 	position: relative;
 	display: inline-block;
 	outline: none;
 }
 
-.cl-effect-5 a:hover,
-.cl-effect-5 a:focus {
+.word-slide-in a:hover,
+.word-slide-in a:focus {
 	outline: none;
 }
 
 
 /* Effect 5: same word slide in */
-.cl-effect-5 a {
+.word-slide-in a {
 	overflow: hidden;
 	width: 100%;
 }
 
-.cl-effect-5 a span {
+.word-slide-in a span {
 	text-decoration: underline;
 	position: relative;
 	display: inline-block;
@@ -116,7 +116,7 @@ main{
 	transition: transform 0.3s;
 }
 
-.cl-effect-5 a span::before {
+.word-slide-in a span::before {
 	text-decoration: underline;
 	position: absolute;
 	top: 100%;
@@ -127,8 +127,8 @@ main{
 	right: -100%;
 }
 
-.cl-effect-5 a:hover span,
-.cl-effect-5 a:focus span {
+.word-slide-in a:hover span,
+.word-slide-in a:focus span {
 	-webkit-transform: translateY(-100%);
 	-moz-transform: translateY(-100%);
 	transform: translateY(-100%);
@@ -141,7 +141,7 @@ main{
 	transform: translateY(-100%);
 }
 
-/*Scroll Bar*/
+/* Scroll Bar */
 
 ::-webkit-scrollbar {
     width: 7px;
@@ -149,10 +149,8 @@ main{
  
 ::-webkit-scrollbar-track {
 	background-color: #EDEDED;
-    /*border-radius: 10px;*/
 }
  
 ::-webkit-scrollbar-thumb {
-    /*border-radius: 10px;*/
     background-color: #D7D7D7;
 }
