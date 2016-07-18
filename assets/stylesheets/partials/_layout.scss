@@ -23,7 +23,8 @@ body{
 	text-decoration: None;
 	font-weight: 600;
 	font-size: 4rem;
-	color: black; 
+	letter-spacing:-.05rem;
+	color: #212121; 
 }
 
 .site-logo:hover{
@@ -34,7 +35,7 @@ body{
 /* Larger than tablet */
 @media (min-width: 550px) {
 	.site-logo{
-		font-size: 4.4rem;
+		font-size: 5rem;
 	}
 }
 
