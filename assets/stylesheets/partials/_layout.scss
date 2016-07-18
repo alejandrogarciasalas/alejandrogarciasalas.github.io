@@ -42,12 +42,14 @@ body{
 
 /*Navigation*/
 nav a{
+	font-size: 1.7rem;
 	text-decoration: none;
 	color: rgba(61,70,77,0.6);
 }
 
 nav a:hover{
-	color: #3d464d;
+	// color: #3d464d;
+	color: #0064DC;
 }	
 
 nav a:not(:first-child){
