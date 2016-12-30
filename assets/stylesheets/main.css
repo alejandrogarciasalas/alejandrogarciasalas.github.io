@@ -711,7 +711,7 @@ header {
   position: absolute;
   width: 40em;
   top: 8em;
-  right: -4.95em; }
+  left: -4.95em; }
 
 footer {
   height: 100%; }
@@ -719,11 +719,13 @@ footer {
     display: flex;
     list-style: none;
     position: absolute;
-    bottom: 0;
-    right: 0;
-    top: 37em; }
+    bottom: -0.3em;
+    left: -6rem; }
     footer .connect_icons li {
-      margin-right: 1em; }
+      margin-right: 1.4em; }
+      footer .connect_icons li img {
+        width: 26px;
+        height: 26px; }
 
 .site-logo {
   text-decoration: None;
