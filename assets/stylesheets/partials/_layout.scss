@@ -19,12 +19,36 @@ body{
 }
 
 /*Site Logo*/
+header {
+	position: absolute;
+	width: 40em;
+	top: 8em;
+	right: -4.95em;
+}
+
+footer {
+	height: 100%;
+	.connect_icons {
+		display: flex;
+		list-style: none;
+		position: absolute;
+	    bottom:0;
+    	right:0;
+    	top: 37em;
+
+    	li {
+    		margin-right: 1em;
+    	}
+	}
+}
+
 .site-logo{
 	text-decoration: None;
 	font-weight: 600;
 	font-size: 4rem;
 	letter-spacing:-.05rem;
-	color: #212121; 
+	color: #212121;
+	text-align: left;
 }
 
 .site-logo:hover{
