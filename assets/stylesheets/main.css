@@ -700,35 +700,13 @@ body {
 /*HEADER*/
 /* Larger than tablet */
 @media (min-width: 750px) {
-  .narrow {
-    margin: 0 6% 0 6%; }
-
   header {
     position: absolute;
     width: 40em;
     top: 8em;
-    left: -4.95em; }
-
-  footer .connect_icons {
-    position: absolute;
-    bottom: -0.3em;
-    left: -6rem; } }
+    left: -4.95em; } }
 /* Larger than desktop */
-@media (min-width: 1000px) {
-  .narrow {
-    margin: 0 17.3333333333% 0 17.3333333333%; } }
 /*Site Logo*/
-footer {
-  height: 100%; }
-  footer .connect_icons {
-    display: flex;
-    list-style: none; }
-    footer .connect_icons li {
-      margin-right: 1.4em; }
-      footer .connect_icons li img {
-        width: 26px;
-        height: 26px; }
-
 .site-logo {
   text-decoration: None;
   font-weight: 600;
@@ -763,11 +741,34 @@ nav {
 main {
   font-family: 'Circular Book'; }
 
-/*FOOTER*/
-.footer-decoration {
-  padding-top: 3%;
-  border-top: 1px solid rgba(61, 70, 77, 0.1); }
+/* Hero Image */
+.hero-image-placeholder {
+  width: 100% px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: grey; }
 
+/* Footer */
+footer {
+  padding-left: 2.8em; }
+  footer .connect_icons {
+    padding: 0;
+    display: flex;
+    list-style: none; }
+    footer .connect_icons li {
+      margin-right: 1.4em; }
+      footer .connect_icons li img {
+        width: 26px;
+        height: 26px;
+        color: #212121; }
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+  footer {
+    position: absolute;
+    bottom: -0.3em;
+    left: -6rem; } }
 .text-center {
   text-align: center; }
 
@@ -781,6 +782,50 @@ main {
 .underline {
   padding: 0 0 0.2em 0;
   border-bottom: 5px solid #212121; }
+
+/*!
+Animate.css - http://daneden.me/animate
+Licensed under the MIT license - http://opensource.org/licenses/MIT
+
+Copyright (c) 2014 Daniel Eden
+*/
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite; }
+
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s; }
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px) translate3d(0, 0, 0);
+    -ms-transform: translateY(-20px) translate3d(0, 0, 0);
+    transform: translateY(-20px) translate3d(0, 0, 0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0) translate3d(0, 0, 0);
+    -ms-transform: translateY(0) translate3d(0, 0, 0);
+    transform: translateY(0) translate3d(0, 0, 0); } }
+.fade-in-down {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown; }
 
 /*Word Slide In*/
 .word-slide-in a {

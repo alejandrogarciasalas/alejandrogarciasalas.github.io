@@ -4,56 +4,26 @@ body{
 
 /*HEADER*/
 
+header {
+
+}
+
 /* Larger than tablet */
 @media (min-width: 750px) {
-	.narrow{
-		margin: 0 6% 0 6%;
-	}
-
 	header {
 		position: absolute;
 		width: 40em;
 		top: 8em;
 		left: -4.95em;
 	}
-
-	footer {
-		.connect_icons {
-			position: absolute;
-		    bottom: -0.3em;
-	    	left:-6rem;
-		}
-	}
 }
 
 /* Larger than desktop */
 @media (min-width: 1000px) {
-	.narrow{
-		margin: 0 17.3333333333% 0 17.3333333333%;
-	}
+	//TODO
 }
 
 /*Site Logo*/
-
-header {
-
-}
-
-footer {
-	height: 100%;
-	.connect_icons {
-		display: flex;
-		list-style: none;
-
-    	li {
-    		margin-right: 1.4em;
-    		img {
-    			width: 26px;
-    			height: 26px;
-    		}
-    	}
-	}
-}
 
 .site-logo{
 	text-decoration: None;
@@ -103,9 +73,43 @@ main{
 	font-family: 'Circular Book';
 }
 
+/* Hero Image */
+.hero-image-placeholder {
+    width: 100%px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: grey;
+}
 
-/*FOOTER*/
-.footer-decoration{
-	padding-top: 3%;
-	border-top: 1px solid rgba(61,70,77,0.1);
+.hero-image {
+
+}
+
+/* Footer */
+footer {
+	padding-left: 2.8em;
+	.connect_icons {
+		padding: 0;
+		display: flex;
+		list-style: none;
+    	li {
+    		margin-right: 1.4em;
+    		img {
+    			width: 26px;
+    			height: 26px;
+    			color: #212121;
+    		}
+    	}
+	}
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+
+	footer {
+		position: absolute;
+	    bottom: -0.3em;
+    	left:-6rem;
+	}
 }
