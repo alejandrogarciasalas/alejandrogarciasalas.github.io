@@ -701,26 +701,28 @@ body {
 /* Larger than tablet */
 @media (min-width: 750px) {
   .narrow {
-    margin: 0 6% 0 6%; } }
+    margin: 0 6% 0 6%; }
+
+  header {
+    position: absolute;
+    width: 40em;
+    top: 8em;
+    left: -4.95em; }
+
+  footer .connect_icons {
+    position: absolute;
+    bottom: -0.3em;
+    left: -6rem; } }
 /* Larger than desktop */
 @media (min-width: 1000px) {
   .narrow {
     margin: 0 17.3333333333% 0 17.3333333333%; } }
 /*Site Logo*/
-header {
-  position: absolute;
-  width: 40em;
-  top: 8em;
-  left: -4.95em; }
-
 footer {
   height: 100%; }
   footer .connect_icons {
     display: flex;
-    list-style: none;
-    position: absolute;
-    bottom: -0.3em;
-    left: -6rem; }
+    list-style: none; }
     footer .connect_icons li {
       margin-right: 1.4em; }
       footer .connect_icons li img {
