@@ -147,10 +147,15 @@
 	font-weight: bold;
 }
 
+/* don't show in mobile */
+
+.tooltip-content {
+	display: none;
+}
 /* Larger than tablet */
 @media (min-width: 750px) {
 	.tooltip-content {
-		display: none;
+		display: block;
 	}
 }
 
