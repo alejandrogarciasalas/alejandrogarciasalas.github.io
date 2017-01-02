@@ -50,6 +50,7 @@ header {
 /*Navigation*/
 nav a{
 	font-size: 1.7rem;
+	font-weight: 600;
 	text-decoration: none;
 	color: rgba(61,70,77,0.6);
 }
@@ -84,6 +85,10 @@ main{
 
 .hero-image {
 
+}
+
+.description {
+	font-weight: 300;
 }
 
 /* Footer */

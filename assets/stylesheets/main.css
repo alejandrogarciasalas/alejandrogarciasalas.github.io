@@ -725,6 +725,7 @@ body {
 /*Navigation*/
 nav a {
   font-size: 1.7rem;
+  font-weight: 600;
   text-decoration: none;
   color: rgba(61, 70, 77, 0.6); }
 
@@ -748,6 +749,9 @@ main {
   background-repeat: no-repeat;
   background-size: contain;
   background-color: grey; }
+
+.description {
+  font-weight: 300; }
 
 /* Footer */
 footer {
