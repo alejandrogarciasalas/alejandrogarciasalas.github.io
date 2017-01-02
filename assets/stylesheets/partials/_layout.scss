@@ -95,14 +95,36 @@ footer {
 		list-style: none;
     	li {
     		margin-right: 1.4em;
-    		img {
+    		.svg {
     			width: 26px;
     			height: 26px;
     			color: #212121;
     		}
     	}
+
 	}
 }
+
+/* Hover Colors */
+#linkedin-icon:hover {
+	fill: #287EB6;
+}
+
+#github-icon:hover {
+	fill: #800080;
+}
+
+#twitter-icon:hover {
+	fill: #1DA1F2;
+}
+
+#dribble-icon:hover {
+	fill: #EC4A89;
+}
+
+// #mail-icon:hover {
+// 	fill: #0064DC;
+// }
 
 /* Larger than tablet */
 @media (min-width: 750px) {

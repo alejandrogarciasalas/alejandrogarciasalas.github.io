@@ -758,10 +758,23 @@ footer {
     list-style: none; }
     footer .connect_icons li {
       margin-right: 1.4em; }
-      footer .connect_icons li img {
+      footer .connect_icons li .svg {
         width: 26px;
         height: 26px;
         color: #212121; }
+
+/* Hover Colors */
+#linkedin-icon:hover {
+  fill: #287EB6; }
+
+#github-icon:hover {
+  fill: #800080; }
+
+#twitter-icon:hover {
+  fill: #1DA1F2; }
+
+#dribble-icon:hover {
+  fill: #EC4A89; }
 
 /* Larger than tablet */
 @media (min-width: 750px) {
@@ -827,48 +840,92 @@ Copyright (c) 2014 Daniel Eden
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown; }
 
-/*Word Slide In*/
-.word-slide-in a {
+/* 
+	Classic tooltip effect taken from [Codrops](http://tympanus.net/codrops/?p=20496)
+*/
+.tooltip {
+  display: inline;
   position: relative;
+  z-index: 999; }
+
+/* Trigger text */
+.tooltip-item {
+  cursor: pointer;
   display: inline-block;
-  outline: none; }
+  font-weight: 700; }
 
-.word-slide-in a:hover,
-.word-slide-in a:focus {
-  outline: none; }
-
-.word-slide-in a {
-  overflow: hidden;
-  width: 100%; }
-
-.word-slide-in a span {
-  text-decoration: underline;
-  position: relative;
-  display: inline-block;
-  -webkit-transition: -webkit-transform 0.3s;
-  -moz-transition: -moz-transform 0.3s;
-  transition: transform 0.3s; }
-
-.word-slide-in a span::before {
-  text-decoration: underline;
+/* Gap filler */
+.tooltip-item::after {
+  content: '';
   position: absolute;
+  width: 250px;
+  height: 20px;
+  bottom: 100%;
+  left: 50%;
+  pointer-events: none;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%); }
+
+.tooltip:hover .tooltip-item::after {
+  pointer-events: auto; }
+
+/* Tooltip */
+.tooltip-content {
+  position: absolute;
+  z-index: 9999;
+  width: 250px;
+  left: 50%;
+  margin: 0 0 20px -125px;
+  bottom: 100%;
+  text-align: left;
+  font-size: 0.9em;
+  line-height: 1.4;
+  background: #EDEDED;
+  opacity: 0;
+  cursor: default;
+  pointer-events: none; }
+
+.tooltip-effect-1 .tooltip-content {
+  -webkit-transform: translate3d(0, -10px, 0);
+  transform: translate3d(0, -10px, 0);
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s; }
+
+.tooltip:hover .tooltip-content {
+  pointer-events: auto;
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0) rotate3d(0, 0, 0, 0);
+  transform: translate3d(0, 0, 0) rotate3d(0, 0, 0, 0); }
+
+.tooltip.tooltip-effect-2:hover .tooltip-content {
+  -webkit-transform: perspective(1000px) rotate3d(1, 0, 0, 0deg);
+  transform: perspective(1000px) rotate3d(1, 0, 0, 0deg); }
+
+/* Arrow */
+.tooltip-content::after {
+  content: '';
   top: 100%;
-  content: attr(data-hover);
-  -webkit-transform: translate3d(0, 0, 0);
-  -moz-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-  right: -100%; }
+  left: 50%;
+  border: solid transparent;
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: transparent;
+  border-top-color: #EDEDED;
+  border-width: 10px;
+  margin-left: -10px; }
 
-.word-slide-in a:hover span,
-.word-slide-in a:focus span {
-  -webkit-transform: translateY(-100%);
-  -moz-transform: translateY(-100%);
-  transform: translateY(-100%); }
+/* Tooltip content*/
+.tooltip-text {
+  display: block;
+  padding: 1em 1em; }
 
-.contact-slide-active {
-  -webkit-transform: translateY(-100%);
-  -moz-transform: translateY(-100%);
-  transform: translateY(-100%); }
+.tooltip-effect-5 .tooltip-text {
+  padding: 1.4em; }
+
+.tooltip-text a {
+  font-weight: bold; }
 
 /*Scroll Bar*/
 ::-webkit-scrollbar {
