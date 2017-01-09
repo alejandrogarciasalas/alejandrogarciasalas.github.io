@@ -6,6 +6,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300; }
 h1 { font-size: 4.0rem; line-height: 1.2;  
   // letter-spacing: -.1rem;
+  font-family: 'Circular Bold';
 }
 h2 { font-size: 3.6rem; line-height: 1.25; 
   // letter-spacing: -.1rem; 
@@ -34,4 +35,5 @@ h6 { font-size: 1.5rem; line-height: 1.6;
 }
 
 p {
+  font-family: 'Circular Book';
   margin-top: 0; }
