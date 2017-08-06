@@ -12,11 +12,13 @@ body{
 /*HEADER*/
 
 header {
+	margin: 5em 0 3em 0;
 }
 
 /* Larger than tablet */
 @media (min-width: 750px) {
 	header {
+		margin: 5em 0 6em 0;
 	}
 }
 
@@ -29,7 +31,7 @@ header {
 
 .site-logo{
 	font-weight: 600;
-	font-size: 6rem;
+	font-size: 4.5rem;
 	letter-spacing:.15rem;
 	color: black;
 	text-align: left;
@@ -46,7 +48,7 @@ header {
 
 /*Navigation*/
 nav a{
-	font-size: 2rem;
+	font-size: 1.9rem;
 	font-family: 'Neue Haas Unica Pro Medium';
 	text-decoration: none;
 	color: rgba(61,70,77,0.6);
@@ -70,7 +72,7 @@ nav a:not(:first-child){
 /*MAIN*/
 
 .description {
-	font-size: 2.5rem;
+	font-size: 1.8rem;
 	// padding-right: 2em;
 }
 
@@ -79,6 +81,7 @@ nav a:not(:first-child){
 /* Larger than tablet */
 @media (min-width: 550px) {
 	.description {
+		font-size: 2.5rem;
 		padding-right: 8em;
 	}
 }
@@ -99,6 +102,10 @@ nav a:not(:first-child){
 
 /* Footer */
 footer {
+	.contact {
+		font-size: 1.6rem;
+	}
+
 	.connect_icons {
 		padding: 0;
 		display: flex;
@@ -107,12 +114,12 @@ footer {
     		margin-right: 1.4em;
 
     		.img {
-    			width: 26px;
-    			height: 26px;
+    			width: 30px;
+    			height: 30px;
     		}
     		.svg {
-    			width: 26px;
-    			height: 26px;
+    			width: 30px;
+    			height: 30px;
     			color: #212121;
     		}
     	}
@@ -137,13 +144,13 @@ footer {
 	fill: #EC4A89;
 }
 
-// #mail-icon:hover {
-// 	fill: #0064DC;
-// }
-
 /* Larger than tablet */
 @media (min-width: 750px) {
-
-	footer {
+	footer { 
+		margin-top: 4rem;
+		.contact {
+			font-size: 2.2rem;
+		}
 	}
+
 }
