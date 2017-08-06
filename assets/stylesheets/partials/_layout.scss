@@ -2,19 +2,21 @@ body{
 	padding: 1.75rem;
 }
 
+/* Larger than tablet */
+@media (min-width: 750px) {
+	main {
+		margin: 0 3.5em;
+	}
+}
+
 /*HEADER*/
 
 header {
-
 }
 
 /* Larger than tablet */
 @media (min-width: 750px) {
 	header {
-		position: absolute;
-		width: 40em;
-		top: 8em;
-		left: -4.95em;
 	}
 }
 
@@ -26,50 +28,61 @@ header {
 /*Site Logo*/
 
 .site-logo{
-	text-decoration: None;
 	font-weight: 600;
-	font-size: 4rem;
-	letter-spacing:-.05rem;
-	color: #212121;
+	font-size: 6rem;
+	letter-spacing:.15rem;
+	color: black;
 	text-align: left;
 }
-
-.site-logo:hover{
-	color: black;
-}
-
 
 /* Larger than tablet */
 @media (min-width: 550px) {
 	.site-logo{
-		font-size: 5rem;
+		font-size: 14rem;
+		letter-spacing:.35rem;
 	}
 }
 
 
 /*Navigation*/
 nav a{
-	font-size: 1.7rem;
-	font-family: 'Circular Medium';
+	font-size: 2rem;
+	font-family: 'Neue Haas Unica Pro Medium';
 	text-decoration: none;
 	color: rgba(61,70,77,0.6);
 }
 
 nav a:hover{
-	// color: #3d464d;
 	color: #0064DC;
 }	
 
 nav a:not(:first-child){
-	padding-left: 7%;
+	margin-left: 7%;
 }
 
-nav{
-	text-align: center;
+/* Larger than tablet */
+@media (min-width: 550px) {
+	nav a{
+		font-size: 4rem;
+	}
 }
-
 
 /*MAIN*/
+
+.description {
+	font-size: 2.5rem;
+	// padding-right: 2em;
+}
+
+
+
+/* Larger than tablet */
+@media (min-width: 550px) {
+	.description {
+		padding-right: 8em;
+	}
+}
+
 
 /* Hero Image */
 .hero-image-placeholder {
@@ -86,7 +99,6 @@ nav{
 
 /* Footer */
 footer {
-	padding-left: 2.8%;
 	.connect_icons {
 		padding: 0;
 		display: flex;
@@ -133,8 +145,5 @@ footer {
 @media (min-width: 750px) {
 
 	footer {
-		position: absolute;
-	    bottom: -0.3em;
-    	left:-6rem;
 	}
 }
