@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/alejandrogarcia
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://alejandro.pe
+  * I am alejandrogarcia (https://keybase.io/alejandrogarcia) on keybase.
+  * I have a public key ASBLhZff2zDFncjrT3IBE1W9-uNgGUT1pX8w9FUEcH7Pcgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01204b8597dfdb30c59dc8eb4f72011355bdfae3601944f5a57f30f45504707ecf720a",
+      "host": "keybase.io",
+      "kid": "01204b8597dfdb30c59dc8eb4f72011355bdfae3601944f5a57f30f45504707ecf720a",
+      "uid": "d7cf57243a1174cf757ebdf4e08d8419",
+      "username": "alejandrogarcia"
+    },
+    "merkle_root": {
+      "ctime": 1503698480,
+      "hash": "d3dc9ef344b7a9f12fad21ce43571d17991b011e3569ae9edda2180238d7efce0cf5f3e5065ceb2332ace365b230c605e93c6662a911a1232be69da231c939ed",
+      "hash_meta": "27fc9be57a773815b851e9f31dc842fc99e2d2d5662cc80fe26603a221498475",
+      "seqno": 1349262
+    },
+    "service": {
+      "hostname": "alejandro.pe",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.28"
+  },
+  "ctime": 1503698493,
+  "expire_in": 504576000,
+  "prev": "677531a454436a497b1a09e9ac1c422f028c90c1482bafb4d23218644c7fe8f0",
+  "seqno": 13,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgS4WX39swxZ3I609yARNVvfrjYBlE9aV/MPRVBHB+z3IKp3BheWxvYWTFA0t7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNGI4NTk3ZGZkYjMwYzU5ZGM4ZWI0ZjcyMDExMzU1YmRmYWUzNjAxOTQ0ZjVhNTdmMzBmNDU1MDQ3MDdlY2Y3MjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNGI4NTk3ZGZkYjMwYzU5ZGM4ZWI0ZjcyMDExMzU1YmRmYWUzNjAxOTQ0ZjVhNTdmMzBmNDU1MDQ3MDdlY2Y3MjBhIiwidWlkIjoiZDdjZjU3MjQzYTExNzRjZjc1N2ViZGY0ZTA4ZDg0MTkiLCJ1c2VybmFtZSI6ImFsZWphbmRyb2dhcmNpYSJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUwMzY5ODQ4MCwiaGFzaCI6ImQzZGM5ZWYzNDRiN2E5ZjEyZmFkMjFjZTQzNTcxZDE3OTkxYjAxMWUzNTY5YWU5ZWRkYTIxODAyMzhkN2VmY2UwY2Y1ZjNlNTA2NWNlYjIzMzJhY2UzNjViMjMwYzYwNWU5M2M2NjYyYTkxMWExMjMyYmU2OWRhMjMxYzkzOWVkIiwiaGFzaF9tZXRhIjoiMjdmYzliZTU3YTc3MzgxNWI4NTFlOWYzMWRjODQyZmM5OWUyZDJkNTY2MmNjODBmZTI2NjAzYTIyMTQ5ODQ3NSIsInNlcW5vIjoxMzQ5MjYyfSwic2VydmljZSI6eyJob3N0bmFtZSI6ImFsZWphbmRyby5wZSIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMjgifSwiY3RpbWUiOjE1MDM2OTg0OTMsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiNjc3NTMxYTQ1NDQzNmE0OTdiMWEwOWU5YWMxYzQyMmYwMjhjOTBjMTQ4MmJhZmI0ZDIzMjE4NjQ0YzdmZThmMCIsInNlcW5vIjoxMywidGFnIjoic2lnbmF0dXJlIn2jc2lnxEA/b0f0eWmNTlHeP+HVnhSoo2mIhqWYtpLL0YZbSYuOYdjmZmpGgwyF8w2EBsiMdVxz+KQECdrCQ70YEnnrhlECqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQg3+AKNxN2Ep+idoDheWXc8PckL4K6+0VOHQtT7BwSaN+jdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/alejandrogarcia
+
+==================================================================
