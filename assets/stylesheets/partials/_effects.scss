@@ -26,8 +26,8 @@
 	bottom: 100%;
 	left: 50%;
 	pointer-events: none;
-	-webkit-transform: translateX(-50%);
-	transform: translateX(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
 }
 
 .tooltip:hover .tooltip-item::after {
