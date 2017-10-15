@@ -1,156 +1,142 @@
-body{
-	padding: 1.75rem;
+body {
+  border: 2px solid black;
+  line-height: 1.6;
+  font-family: "Neue Haas Unica Regular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;    
 }
-
-/* Larger than tablet */
-@media (min-width: 750px) {
-	main {
-		margin: 0 3.5em;
-	}
-}
-
-/*HEADER*/
 
 header {
-	margin: 5em 0 3em 0;
+  padding-top: 6%;
+  padding-bottom: 5%;
+}
+
+@media (min-width: 550px) {
+  nav {
+    font-size: 1.25rem;
+  }
+}
+
+nav {
+  font-weight: 400;
+  a {
+    margin-right: 0.5rem;
+  }
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; 
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
 }
 
 /* Larger than tablet */
 @media (min-width: 750px) {
-	header {
-		margin: 5em 0 6em 0;
-	}
+  .container {
+    width: 55%;
+    padding: 0; 
+  }  
 }
 
 /* Larger than desktop */
-@media (min-width: 1000px) {
-	//TODO
+@media (min-width: 1600px) {
+  .container {
+    width: 42%;
+    padding: 0; 
+  }  
 }
 
-/*Site Logo*/
-
-.site-logo{
-	font-weight: 600;
-	font-size: 4.5rem;
-	letter-spacing:.15rem;
-	color: black;
-	text-align: left;
+/* Larger than Desktop HD */
+@media (min-width: 1800px) {
+  .container {
+    width: 27%;
+    padding: 0; 
+  }
 }
 
-/* Larger than tablet */
+h1 {
+  line-height: 1.2;
+  font-family: "Neue Haas Unica Pro Medium", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media screen and (min-width: 29.375em) {
+  h1 {
+      font-size: 31px;
+      font-size: 1.9375rem;
+      line-height: 1.161290323;
+  } 
+}
+
+@media screen and (min-width: 37.5625em) {
+  h1 {
+      font-size: 37px;
+      font-size: 2.3125rem;
+      line-height: 1.135135135;
+  }
+}
+
+@media screen and (min-width: 43.75em) {
+  h1 {
+      font-size: 41px;
+      font-size: 2.5625rem;
+      line-height: 1.170731707;
+  }
+}
+
+@media screen and (min-width: 68em) {
+  h1 {
+      font-size: 50px;
+      font-size: 3.125rem;
+      line-height: 1.12;
+  }
+}
+
 @media (min-width: 550px) {
-	.site-logo{
-		font-size: 14rem;
-		letter-spacing:.35rem;
-	}
+  p {
+    margin: 0 0 24px;
+    font-size: 1.25rem;
+  }
 }
 
+a {  
+  color: black;
+  text-shadow: 2px 0 0 #ffffff, -2px 0 0 #ffffff;
+}
+a:hover {  text-decoration: none  }
 
-/*Navigation*/
-nav a{
-	font-size: 1.9rem;
-	font-family: 'Neue Haas Unica Pro Medium';
-	text-decoration: none;
-	color: rgba(61,70,77,0.6);
+hr {
+  background-color: black;
+  border: 0;
+  height: 2px;
 }
 
-nav a:hover{
-	color: #0064DC;
-}	
-
-nav a:not(:first-child){
-	margin-left: 7%;
+@media screen and (min-width: 43.75em)
+{ hr {
+    margin-bottom: 4.5%;
+  }
 }
 
-/* Larger than tablet */
 @media (min-width: 550px) {
-	nav a{
-		font-size: 4rem;
-	}
+  footer {
+    font-size: 1.25rem;
+  }
 }
 
-/*MAIN*/
-
-.description {
-	font-size: 1.8rem;
-	// padding-right: 2em;
-}
-
-
-
-/* Larger than tablet */
-@media (min-width: 550px) {
-	.description {
-		font-size: 2.5rem;
-		padding-right: 8em;
-	}
-}
-
-
-/* Hero Image */
-.hero-image-placeholder {
-    width: 100%px;
-    height: 300px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-color: grey;
-}
-
-.hero-image {
-
-}
-
-/* Footer */
 footer {
-	.contact {
-		font-size: 1.6rem;
-	}
-
-	.connect_icons {
-		padding: 0;
-		display: flex;
-		list-style: none;
-    	li {
-    		margin-right: 1.4em;
-
-    		.img {
-    			width: 30px;
-    			height: 30px;
-    		}
-    		.svg {
-    			width: 30px;
-    			height: 30px;
-    			color: #212121;
-    		}
-    	}
-
-	}
-}
-
-/* Hover Colors */
-#linkedin-icon:hover {
-	fill: #287EB6;
-}
-
-#github-icon:hover {
-	fill: #800080;
-}
-
-#twitter-icon:hover {
-	fill: #1DA1F2;
-}
-
-#dribble-icon:hover {
-	fill: #EC4A89;
-}
-
-/* Larger than tablet */
-@media (min-width: 750px) {
-	footer { 
-		margin-top: 4rem;
-		.contact {
-			font-size: 2.2rem;
-		}
-	}
+  font-weight: 400;
+  a {
+    margin-right: 0.5rem;
+  }
+  padding-bottom: 5.5%;
 
 }
+
+
