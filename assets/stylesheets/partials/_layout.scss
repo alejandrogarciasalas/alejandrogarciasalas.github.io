@@ -1,140 +1,146 @@
-body{
-	padding: 1.75rem;
+body {
+  border: 2px solid black;
+  line-height: 1.6;
+  font-family: "Neue Haas Unica Regular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;    
 }
 
-/*HEADER*/
-
 header {
+  padding-top: 6%;
+  padding-bottom: 5%;
+}
 
+@media (min-width: 550px) {
+  nav {
+    font-size: 1.25rem;
+  }
+}
+
+nav {
+  font-weight: 400;
+  a {
+    margin-right: 0.5rem;
+  }
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; 
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  .container {
+    width: 55%;
+    padding: 0; 
+  }  
 }
 
 /* Larger than tablet */
 @media (min-width: 750px) {
-	header {
-		position: absolute;
-		width: 40em;
-		top: 8em;
-		left: -4.95em;
-	}
+  .container {
+    width: 55%;
+    padding: 0; 
+  }  
 }
 
 /* Larger than desktop */
-@media (min-width: 1000px) {
-	//TODO
+@media (min-width: 1600px) {
+  .container {
+    width: 42%;
+    padding: 0; 
+  }  
 }
 
-/*Site Logo*/
-
-.site-logo{
-	text-decoration: None;
-	font-weight: 600;
-	font-size: 4rem;
-	letter-spacing:-.05rem;
-	color: #212121;
-	text-align: left;
+/* Larger than Desktop HD */
+@media (min-width: 1800px) {
+  .container {
+    width: 27%;
+    padding: 0; 
+  }
 }
 
-.site-logo:hover{
-	color: black;
+h1 {
+  line-height: 1.2;
+  font-family: "Neue Haas Unica Pro Medium", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+@media screen and (min-width: 29.375em) {
+  h1 {
+      font-size: 31px;
+      font-size: 1.9375rem;
+      line-height: 1.161290323;
+  } 
+}
 
-/* Larger than tablet */
+@media screen and (min-width: 37.5625em) {
+  h1 {
+      font-size: 37px;
+      font-size: 2.3125rem;
+      line-height: 1.135135135;
+  }
+}
+
+@media screen and (min-width: 43.75em) {
+  h1 {
+      font-size: 41px;
+      font-size: 2.5625rem;
+      line-height: 1.170731707;
+  }
+}
+
+@media screen and (min-width: 68em) {
+  h1 {
+      font-size: 50px;
+      font-size: 3.125rem;
+      line-height: 1.12;
+  }
+}
+
 @media (min-width: 550px) {
-	.site-logo{
-		font-size: 5rem;
-	}
+  p {
+    margin: 0 0 24px;
+    font-size: 1.25rem;
+  }
 }
 
+a {  
+  color: black;
+  text-shadow: 2px 0 0 #ffffff, -2px 0 0 #ffffff;
+}
+a:hover {  text-decoration: none  }
 
-/*Navigation*/
-nav a{
-	font-size: 1.7rem;
-	font-family: 'Circular Medium';
-	text-decoration: none;
-	color: rgba(61,70,77,0.6);
+hr {
+  background-color: black;
+  border: 0;
+  height: 2px;
 }
 
-nav a:hover{
-	// color: #3d464d;
-	color: #0064DC;
-}	
-
-nav a:not(:first-child){
-	margin-left: 7%;
+@media screen and (min-width: 43.75em)
+{ hr {
+    margin-bottom: 4.5%;
+  }
 }
 
-nav{
-	text-align: center;
+@media (min-width: 550px) {
+  footer {
+    font-size: 1.25rem;
+  }
 }
 
-
-/*MAIN*/
-
-/* Hero Image */
-.hero-image-placeholder {
-    width: 100%px;
-    height: 300px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-color: grey;
-}
-
-.hero-image {
-
-}
-
-/* Footer */
 footer {
-	padding-left: 2.8%;
-	.connect_icons {
-		padding: 0;
-		display: flex;
-		list-style: none;
-    	li {
-    		margin-right: 1.4em;
+  font-weight: 400;
+  a {
+    margin-right: 0.5rem;
+  }
+  padding-bottom: 5.5%;
 
-    		.img {
-    			width: 26px;
-    			height: 26px;
-    		}
-    		.svg {
-    			width: 26px;
-    			height: 26px;
-    			color: #212121;
-    		}
-    	}
-
-	}
 }
 
-/* Hover Colors */
-#linkedin-icon:hover {
-	fill: #287EB6;
-}
 
-#github-icon:hover {
-	fill: #800080;
-}
-
-#twitter-icon:hover {
-	fill: #1DA1F2;
-}
-
-#dribble-icon:hover {
-	fill: #EC4A89;
-}
-
-// #mail-icon:hover {
-// 	fill: #0064DC;
-// }
-
-/* Larger than tablet */
-@media (min-width: 750px) {
-
-	footer {
-		position: absolute;
-	    bottom: -0.3em;
-    	left:-6rem;
-	}
-}
