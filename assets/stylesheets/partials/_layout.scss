@@ -36,6 +36,10 @@ nav {
 
 /* Larger than phablet */
 @media (min-width: 550px) {
+  .container {
+    width: 55%;
+    padding: 0; 
+  }  
 }
 
 /* Larger than tablet */
