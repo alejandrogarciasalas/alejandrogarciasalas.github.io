@@ -91,14 +91,14 @@ h1 {
 /* Larger than tablet */
 @media (min-width: 750px) {
   h1 {
-    letter-spacing: -0.025rem;
+    letter-spacing: -0.05rem;
   }  
 }
 
 /* Larger than desktop */
 @media (min-width: 1000px) {
   h1 {
-    letter-spacing: 0.05rem;
+    letter-spacing: 0rem;
   }  
 }
 
@@ -130,7 +130,6 @@ h1 {
       font-size: 41px;
       font-size: 2.5625rem;
       line-height: 1.170731707;
-      letter-spacing: 0.05rem;
   }
 }
 
