@@ -69,8 +69,30 @@ nav {
 h1 {
   line-height: 1.2;
   font-family: "Neue Haas Unica Pro Medium", "HelveticaNeue", "Helvetica Neue", Helvetica, sans-serif;
+  letter-spacing: -0.08rem;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
   letter-spacing: -0.05rem;
 }
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+  letter-spacing: -0.05rem;
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+  letter-spacing: -0.04rem;
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
 
 @media screen and (min-width: 29.375em) {
   h1 {
