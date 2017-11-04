@@ -158,13 +158,14 @@ a:hover {  text-decoration: none  }
 hr {
   background-color: black;
   border: 0;
-  height: 2px;
+  height: 1.25px;
+  margin-bottom: 5%;
 }
 
-/* Larger than mobile */
-@media (min-width: 400px) {
+/* Larger than phablet */
+@media (min-width: 550px) {
   hr {
-    height: 1px;
+    height: 2px;
   }
 }
 
