@@ -161,6 +161,14 @@ hr {
   height: 2px;
 }
 
+/* Larger than mobile */
+@media (min-width: 400px) {
+  hr {
+    height: 1px;
+  }
+}
+
+
 @media screen and (min-width: 43.75em)
 { hr {
     margin-bottom: 4.5%;
