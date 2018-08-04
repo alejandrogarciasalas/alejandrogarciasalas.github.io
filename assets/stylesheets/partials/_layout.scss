@@ -1,6 +1,7 @@
 body {
   border: 2px solid black;
   line-height: 1.6;
+  font-size: 1.25rem;
   font-family: "NeueHaasUnicaPro-Regular", "HelveticaNeue", Helvetica, sans-serif;
 }
 
@@ -103,7 +104,6 @@ h1 {
 @media (min-width: 550px) {
   p {
     margin: 0 0 24px;
-    font-size: 1.25rem;
   }
 }
 
