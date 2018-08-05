@@ -1,0 +1,35 @@
+body {
+  border-bottom: 2px solid black;
+}
+header {
+  font-size: 1.1rem;
+  padding: 0.9% 1.5% 0.9%;
+  margin-bottom: 6.2%;
+  border-bottom: 2px solid black;
+  font-family: "NeueHaasUnicaPro-Medium", "HelveticaNeue", Helvetica, sans-serif;
+  a {
+    text-decoration: none;
+  }
+}
+
+h2 {
+  font-family: "NeueHaasUnicaPro-Medium", "HelveticaNeue", Helvetica, sans-serif;
+}
+
+nav {
+  font-size: 1rem;
+  font-family: "NeueHaasUnicaPro-Regular", "HelveticaNeue", Helvetica, sans-serif;
+  float: right;
+  a {
+    margin-right: 0.5rem;
+    text-decoration: underline;
+  }
+}
+
+b, strong {
+  font-family: "NeueHaasUnicaPro-Medium", "HelveticaNeue", Helvetica, sans-serif;
+}
+
+i {
+  font-family: "NeueHaasUnicaPro-Italic-Medium", "HelveticaNeue", Helvetica, sans-serif;
+}

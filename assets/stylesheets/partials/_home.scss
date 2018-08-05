@@ -1,0 +1,20 @@
+body {
+  border: 2px solid black;
+}
+header {
+  padding-top: 6%;
+  padding-bottom: 5%;
+}
+
+@media (min-width: 550px) {
+  nav {
+    font-size: 1.25rem;
+  }
+}
+
+nav {
+  font-weight: 400;
+  a {
+    margin-right: 0.5rem;
+  }
+}

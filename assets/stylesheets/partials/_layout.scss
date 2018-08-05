@@ -1,26 +1,7 @@
 body {
-  border: 2px solid black;
   line-height: 1.6;
   font-size: 1.25rem;
   font-family: "NeueHaasUnicaPro-Regular", "HelveticaNeue", Helvetica, sans-serif;
-}
-
-header {
-  padding-top: 6%;
-  padding-bottom: 5%;
-}
-
-@media (min-width: 550px) {
-  nav {
-    font-size: 1.25rem;
-  }
-}
-
-nav {
-  font-weight: 400;
-  a {
-    margin-right: 0.5rem;
-  }
 }
 
 .container {
