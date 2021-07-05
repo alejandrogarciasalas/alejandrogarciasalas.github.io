@@ -46,14 +46,18 @@ body {
 }
 
 h1 {
+  font-size: 41px;
   line-height: 1.2;
-  font-family: "NeueHaasUnicaPro-Medium", "HelveticaNeue", Helvetica, sans-serif;
+  font-weight: normal;
+  font-family: "NeueHaasUnicaPro-Bold",
+  "HelveticaNeue",
+  Helvetica,
+  sans-serif;
 }
 
 @media screen and (min-width: 29.375em) {
   h1 {
     font-size: 31px;
-    font-size: 1.9375rem;
     line-height: 1.161290323;
   }
 }
@@ -61,7 +65,6 @@ h1 {
 @media screen and (min-width: 37.5625em) {
   h1 {
     font-size: 37px;
-    font-size: 2.3125rem;
     line-height: 1.135135135;
   }
 }
@@ -69,7 +72,6 @@ h1 {
 @media screen and (min-width: 43.75em) {
   h1 {
       font-size: 41px;
-      font-size: 2.5625rem;
       line-height: 1.170731707;
   }
 }
@@ -77,7 +79,6 @@ h1 {
 @media screen and (min-width: 68em) {
   h1 {
     font-size: 50px;
-    font-size: 3.125rem;
     line-height: 1.12;
   }
 }

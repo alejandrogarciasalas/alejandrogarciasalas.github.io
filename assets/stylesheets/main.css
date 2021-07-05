@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /**
  * @license
- * MyFonts Webfont Build ID 3501974, 2017-12-23T14:29:41-0500
+ * MyFonts Webfont Build ID 4121204, 2021-07-05T01:39:21-0400
  *
  * The fonts listed in this notice are subject to the End User License
  * Agreement(s) entered into by the website owner. All other parties are
@@ -64,84 +64,66 @@
  * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/ultra-light/
  *
  *
- * License: https://www.myfonts.com/viewlicense?type=web&buildid=3501974
- * Licensed pageviews: 10
- * Webfonts copyright: Copyright &#x00A9; 2016 Monotype Imaging Inc. All rights reserved.
+ * Webfonts copyright: Copyright &amp;#x00A9; 2016 Monotype Imaging Inc. All rights reserved.
  *
- * © 2017 MyFonts Inc
+ * © 2021 MyFonts Inc
 */
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3ee274");
 @font-face {
-  font-family: 'NeueHaasUnicaPro-Black';
-  src: url("../fonts/neue-hass-unica/356F96_0_0.eot");
-  src: url("../fonts/neue-hass-unica/356F96_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/neue-hass-unica/356F96_0_0.woff2") format("woff2"), url("../fonts/neue-hass-unica/356F96_0_0.woff") format("woff"), url("../fonts/neue-hass-unica/356F96_0_0.ttf") format("truetype"); }
+  font-family: "NeueHaasUnicaPro-XBlackIt";
+  src: url("../webFonts/NeueHaasUnicaProXBlackIt/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProXBlackIt/font.woff") format("woff"); }
 @font-face {
-  font-family: 'NeueHaasUnicaPro-XBlackIt';
-  src: url("../fonts/neue-hass-unica/356F96_1_0.eot");
-  src: url("../fonts/neue-hass-unica/356F96_1_0.eot?#iefix") format("embedded-opentype"), url("../fonts/neue-hass-unica/356F96_1_0.woff2") format("woff2"), url("../fonts/neue-hass-unica/356F96_1_0.woff") format("woff"), url("../fonts/neue-hass-unica/356F96_1_0.ttf") format("truetype"); }
+  font-family: "NeueHaasUnicaPro-Regular";
+  src: url("../webFonts/NeueHaasUnicaProRegular/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProRegular/font.woff") format("woff"); }
 @font-face {
-  font-family: 'NeueHaasUnicaPro-BoldItalic';
-  src: url("../fonts/neue-hass-unica/356F96_2_0.eot");
-  src: url("../fonts/neue-hass-unica/356F96_2_0.eot?#iefix") format("embedded-opentype"), url("../fonts/neue-hass-unica/356F96_2_0.woff2") format("woff2"), url("../fonts/neue-hass-unica/356F96_2_0.woff") format("woff"), url("../fonts/neue-hass-unica/356F96_2_0.ttf") format("truetype"); }
+  font-family: "NeueHaasUnicaPro-UltLightIt";
+  src: url("../webFonts/NeueHaasUnicaProUltLightIt/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProUltLightIt/font.woff") format("woff"); }
 @font-face {
-  font-family: 'NeueHaasUnicaPro-BlackIt';
-  src: url("../fonts/neue-hass-unica/356F96_3_0.eot");
-  src: url("../fonts/neue-hass-unica/356F96_3_0.eot?#iefix") format("embedded-opentype"), url("../fonts/neue-hass-unica/356F96_3_0.woff2") format("woff2"), url("../fonts/neue-hass-unica/356F96_3_0.woff") format("woff"), url("../fonts/neue-hass-unica/356F96_3_0.ttf") format("truetype"); }
+  font-family: "NeueHaasUnicaPro-BlackIt";
+  src: url("../webFonts/NeueHaasUnicaProBlackIt/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProBlackIt/font.woff") format("woff"); }
 @font-face {
-  font-family: 'NeueHaasUnicaPro-XBlack';
-  src: url("../fonts/neue-hass-unica/356F96_4_0.eot");
-  src: url("../fonts/neue-hass-unica/356F96_4_0.eot?#iefix") format("embedded-opentype"), url("../fonts/neue-hass-unica/356F96_4_0.woff2") format("woff2"), url("../fonts/neue-hass-unica/356F96_4_0.woff") format("woff"), url("../fonts/neue-hass-unica/356F96_4_0.ttf") format("truetype"); }
+  font-family: "NeueHaasUnicaPro-Thin";
+  src: url("../webFonts/NeueHaasUnicaProThin/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProThin/font.woff") format("woff"); }
 @font-face {
-  font-family: 'NeueHaasUnicaPro-Bold';
-  src: url("../fonts/neue-hass-unica/356F96_5_0.eot");
-  src: url("../fonts/neue-hass-unica/356F96_5_0.eot?#iefix") format("embedded-opentype"), url("../fonts/neue-hass-unica/356F96_5_0.woff2") format("woff2"), url("../fonts/neue-hass-unica/356F96_5_0.woff") format("woff"), url("../fonts/neue-hass-unica/356F96_5_0.ttf") format("truetype"); }
+  font-family: "NeueHaasUnicaPro-XBlack";
+  src: url("../webFonts/NeueHaasUnicaProXBlack/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProXBlack/font.woff") format("woff"); }
 @font-face {
-  font-family: 'NeueHaasUnicaPro-HeavyIt';
-  src: url("../fonts/neue-hass-unica/356F96_6_0.eot");
-  src: url("../fonts/neue-hass-unica/356F96_6_0.eot?#iefix") format("embedded-opentype"), url("../fonts/neue-hass-unica/356F96_6_0.woff2") format("woff2"), url("../fonts/neue-hass-unica/356F96_6_0.woff") format("woff"), url("../fonts/neue-hass-unica/356F96_6_0.ttf") format("truetype"); }
+  font-family: "NeueHaasUnicaPro-ThinItalic";
+  src: url("../webFonts/NeueHaasUnicaProThinItalic/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProThinItalic/font.woff") format("woff"); }
 @font-face {
-  font-family: 'NeueHaasUnicaPro-Heavy';
-  src: url("../fonts/neue-hass-unica/356F96_7_0.eot");
-  src: url("../fonts/neue-hass-unica/356F96_7_0.eot?#iefix") format("embedded-opentype"), url("../fonts/neue-hass-unica/356F96_7_0.woff2") format("woff2"), url("../fonts/neue-hass-unica/356F96_7_0.woff") format("woff"), url("../fonts/neue-hass-unica/356F96_7_0.ttf") format("truetype"); }
+  font-family: "NeueHaasUnicaPro-LightIt";
+  src: url("../webFonts/NeueHaasUnicaProLightIt/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProLightIt/font.woff") format("woff"); }
 @font-face {
-  font-family: 'NeueHaasUnicaPro-Italic';
-  src: url("../fonts/neue-hass-unica/356F96_8_0.eot");
-  src: url("../fonts/neue-hass-unica/356F96_8_0.eot?#iefix") format("embedded-opentype"), url("../fonts/neue-hass-unica/356F96_8_0.woff2") format("woff2"), url("../fonts/neue-hass-unica/356F96_8_0.woff") format("woff"), url("../fonts/neue-hass-unica/356F96_8_0.ttf") format("truetype"); }
+  font-family: "NeueHaasUnicaPro-Medium";
+  src: url("../webFonts/NeueHaasUnicaProMedium/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProMedium/font.woff") format("woff"); }
 @font-face {
-  font-family: 'NeueHaasUnicaPro-LightIt';
-  src: url("../fonts/neue-hass-unica/356F96_9_0.eot");
-  src: url("../fonts/neue-hass-unica/356F96_9_0.eot?#iefix") format("embedded-opentype"), url("../fonts/neue-hass-unica/356F96_9_0.woff2") format("woff2"), url("../fonts/neue-hass-unica/356F96_9_0.woff") format("woff"), url("../fonts/neue-hass-unica/356F96_9_0.ttf") format("truetype"); }
+  font-family: "NeueHaasUnicaPro-UltraLight";
+  src: url("../webFonts/NeueHaasUnicaProUltraLight/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProUltraLight/font.woff") format("woff"); }
 @font-face {
-  font-family: 'NeueHaasUnicaPro-Light';
-  src: url("../fonts/neue-hass-unica/356F96_A_0.eot");
-  src: url("../fonts/neue-hass-unica/356F96_A_0.eot?#iefix") format("embedded-opentype"), url("../fonts/neue-hass-unica/356F96_A_0.woff2") format("woff2"), url("../fonts/neue-hass-unica/356F96_A_0.woff") format("woff"), url("../fonts/neue-hass-unica/356F96_A_0.ttf") format("truetype"); }
+  font-family: "NeueHaasUnicaPro-Black";
+  src: url("../webFonts/NeueHaasUnicaProBlack/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProBlack/font.woff") format("woff"); }
 @font-face {
-  font-family: 'NeueHaasUnicaPro-MediumIt';
-  src: url("../fonts/neue-hass-unica/356F96_B_0.eot");
-  src: url("../fonts/neue-hass-unica/356F96_B_0.eot?#iefix") format("embedded-opentype"), url("../fonts/neue-hass-unica/356F96_B_0.woff2") format("woff2"), url("../fonts/neue-hass-unica/356F96_B_0.woff") format("woff"), url("../fonts/neue-hass-unica/356F96_B_0.ttf") format("truetype"); }
+  font-family: "NeueHaasUnicaPro-Heavy";
+  src: url("../webFonts/NeueHaasUnicaProHeavy/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProHeavy/font.woff") format("woff"); }
 @font-face {
-  font-family: 'NeueHaasUnicaPro-Medium';
-  src: url("../fonts/neue-hass-unica/356F96_C_0.eot");
-  src: url("../fonts/neue-hass-unica/356F96_C_0.eot?#iefix") format("embedded-opentype"), url("../fonts/neue-hass-unica/356F96_C_0.woff2") format("woff2"), url("../fonts/neue-hass-unica/356F96_C_0.woff") format("woff"), url("../fonts/neue-hass-unica/356F96_C_0.ttf") format("truetype"); }
+  font-family: "NeueHaasUnicaPro-MediumIt";
+  src: url("../webFonts/NeueHaasUnicaProMediumIt/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProMediumIt/font.woff") format("woff"); }
 @font-face {
-  font-family: 'NeueHaasUnicaPro-Regular';
-  src: url("../fonts/neue-hass-unica/356F96_D_0.eot");
-  src: url("../fonts/neue-hass-unica/356F96_D_0.eot?#iefix") format("embedded-opentype"), url("../fonts/neue-hass-unica/356F96_D_0.woff2") format("woff2"), url("../fonts/neue-hass-unica/356F96_D_0.woff") format("woff"), url("../fonts/neue-hass-unica/356F96_D_0.ttf") format("truetype"); }
+  font-family: "NeueHaasUnicaPro-Light";
+  src: url("../webFonts/NeueHaasUnicaProLight/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProLight/font.woff") format("woff"); }
 @font-face {
-  font-family: 'NeueHaasUnicaPro-ThinItalic';
-  src: url("../fonts/neue-hass-unica/356F96_E_0.eot");
-  src: url("../fonts/neue-hass-unica/356F96_E_0.eot?#iefix") format("embedded-opentype"), url("../fonts/neue-hass-unica/356F96_E_0.woff2") format("woff2"), url("../fonts/neue-hass-unica/356F96_E_0.woff") format("woff"), url("../fonts/neue-hass-unica/356F96_E_0.ttf") format("truetype"); }
+  font-family: "NeueHaasUnicaPro-Bold";
+  src: url("../webFonts/NeueHaasUnicaProBold/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProBold/font.woff") format("woff"); }
 @font-face {
-  font-family: 'NeueHaasUnicaPro-Thin';
-  src: url("../fonts/neue-hass-unica/356F96_F_0.eot");
-  src: url("../fonts/neue-hass-unica/356F96_F_0.eot?#iefix") format("embedded-opentype"), url("../fonts/neue-hass-unica/356F96_F_0.woff2") format("woff2"), url("../fonts/neue-hass-unica/356F96_F_0.woff") format("woff"), url("../fonts/neue-hass-unica/356F96_F_0.ttf") format("truetype"); }
+  font-family: "NeueHaasUnicaPro-BoldItalic";
+  src: url("../webFonts/NeueHaasUnicaProBoldItalic/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProBoldItalic/font.woff") format("woff"); }
 @font-face {
-  font-family: 'NeueHaasUnicaPro-UltLightIt';
-  src: url("../fonts/neue-hass-unica/356F96_10_0.eot");
-  src: url("../fonts/neue-hass-unica/356F96_10_0.eot?#iefix") format("embedded-opentype"), url("../fonts/neue-hass-unica/356F96_10_0.woff2") format("woff2"), url("../fonts/neue-hass-unica/356F96_10_0.woff") format("woff"), url("../fonts/neue-hass-unica/356F96_10_0.ttf") format("truetype"); }
+  font-family: "NeueHaasUnicaPro-HeavyIt";
+  src: url("../webFonts/NeueHaasUnicaProHeavyIt/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProHeavyIt/font.woff") format("woff"); }
 @font-face {
-  font-family: 'NeueHaasUnicaPro-UltraLight';
-  src: url("../fonts/neue-hass-unica/356F96_11_0.eot");
-  src: url("../fonts/neue-hass-unica/356F96_11_0.eot?#iefix") format("embedded-opentype"), url("../fonts/neue-hass-unica/356F96_11_0.woff2") format("woff2"), url("../fonts/neue-hass-unica/356F96_11_0.woff") format("woff"), url("../fonts/neue-hass-unica/356F96_11_0.ttf") format("truetype"); }
+  font-family: "NeueHaasUnicaPro-Italic";
+  src: url("../webFonts/NeueHaasUnicaProItalic/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProItalic/font.woff") format("woff"); }
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -534,28 +516,26 @@ body {
     width: 27%;
     padding: 0; } }
 h1 {
+  font-size: 41px;
   line-height: 1.2;
-  font-family: "NeueHaasUnicaPro-Medium", "HelveticaNeue", Helvetica, sans-serif; }
+  font-weight: normal;
+  font-family: "NeueHaasUnicaPro-Bold", "HelveticaNeue", Helvetica, sans-serif; }
 
 @media screen and (min-width: 29.375em) {
   h1 {
     font-size: 31px;
-    font-size: 1.9375rem;
     line-height: 1.161290323; } }
 @media screen and (min-width: 37.5625em) {
   h1 {
     font-size: 37px;
-    font-size: 2.3125rem;
     line-height: 1.135135135; } }
 @media screen and (min-width: 43.75em) {
   h1 {
     font-size: 41px;
-    font-size: 2.5625rem;
     line-height: 1.170731707; } }
 @media screen and (min-width: 68em) {
   h1 {
     font-size: 50px;
-    font-size: 3.125rem;
     line-height: 1.12; } }
 @media (min-width: 550px) {
   p {
@@ -590,7 +570,7 @@ footer {
     margin-right: 0.5rem; }
 
 body {
-  border: 2px solid black; }
+  border: 3px solid black; }
 
 header {
   padding-top: 6%; }
