@@ -1,13 +1,152 @@
 body {
-  font-size: 1.5rem;
+  margin: 0;
+  font-size: 1.8rem;
+  color: #050aa1;
+  background-attachment: fixed;
+  background-color: white;
+  background-image: radial-gradient(
+      at 59% 30%,
+      hsla(216, 0%, 100%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 70% 74%, rgb(255, 255, 0) 0px, transparent 50%),
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 5000 5000' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.98' numOctaves='10' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+
+  font-family: neue-haas-unica, sans-serif;
+  font-weight: 500;
+  filter: contrast(100%) brightness(110%);
 }
 
 img {
-  width: 100%;
+  padding-top: 30px;
+  width: 80%;
+  margin: 0 auto;
+  display: block;
 }
 
-.container {
-  max-width: 744px;
+.name {
+  font-style: italic;
+}
+
+h1 {
+  padding-top: 1rem;
+  font-size: 5rem;
+  font-weight: bold;
+  position: absolute;
+  /* letter-spacing: 1000px; */
+  /* opacity: 0.8; */
+}
+
+h2 {
+  padding-left: 10px;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+@media (max-width: 550px) {
+  body {
+    font-size: 1.25rem;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+}
+
+a {
+  color: #050aa1;
+  font-family: "PP Editorial New", serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+header {
+  position: relative;
+}
+
+main {
+  padding-top: 20px;
+  max-width: 800px;
   margin-right: auto;
   margin-left: auto;
 }
+
+.container {
+  max-width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.char {
+  /* --i: calc(50% / var(--char-total)); */
+  --offset: calc(var(--char-index) * 2rem);
+  offset-path: path(
+    "M 33.75 122.4 C 328.75 248 425 43 703.75 17 C 1023 38 1079 189 1237.5 208 c 173.5 25 508.9219 -11.056 1040.625 -180.8"
+  );
+  offset-distance: var(--offset);
+  position: absolute;
+  animation: move 2000ms infinite alternate forwards var(--delay, 0ms);
+}
+
+@keyframes move {
+  100% {
+    /* --i: 2rem; */
+    offset-distance: calc(var(--offset) + 12rem);
+  }
+}
+
+.shimmer {
+  text-align: center;
+
+  background: linear-gradient(
+      90deg,
+      #0000 33%,
+      rgba(255, 255, 255, 0.5) 50%,
+      #0000 66%
+    )
+    #050aa1;
+  background-size: 200% auto;
+
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: shine 2s linear infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+hr {
+  border: blue 1px solid;
+}
+
+footer {
+  padding-left: 150px;
+  margin-bottom: px;
+}
+footer a {
+  padding-right: 20px;
+}
+
+/* .gradient {
+  background: radial-gradient(
+      circle at 50% 50%,
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0)
+    ),
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 600 600' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  filter: contrast(145%) brightness(650%) invert(100%);
+  mix-blend-mode: screen;
+}
+
+.isolate {
+  isolation: isolate;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+} */
