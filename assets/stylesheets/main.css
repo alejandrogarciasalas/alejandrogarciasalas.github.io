@@ -1,129 +1,3 @@
-@charset "UTF-8";
-/**
- * @license
- * MyFonts Webfont Build ID 4121204, 2021-07-05T01:39:21-0400
- *
- * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are
- * explicitly restricted from using the Licensed Webfonts(s).
- *
- * You may obtain a valid license at the URLs below.
- *
- * Webfont: NeueHaasUnicaPro-Black by Linotype
- * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/black/
- *
- * Webfont: NeueHaasUnicaPro-XBlackIt by Linotype
- * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/extra-black-italic/
- *
- * Webfont: NeueHaasUnicaPro-BoldItalic by Linotype
- * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/bold-italic/
- *
- * Webfont: NeueHaasUnicaPro-BlackIt by Linotype
- * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/black-italic/
- *
- * Webfont: NeueHaasUnicaPro-XBlack by Linotype
- * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/extra-black/
- *
- * Webfont: NeueHaasUnicaPro-Bold by Linotype
- * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/bold/
- *
- * Webfont: NeueHaasUnicaPro-HeavyIt by Linotype
- * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/heavy-italic/
- *
- * Webfont: NeueHaasUnicaPro-Heavy by Linotype
- * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/heavy/
- *
- * Webfont: NeueHaasUnicaPro-Italic by Linotype
- * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/italic/
- *
- * Webfont: NeueHaasUnicaPro-LightIt by Linotype
- * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/light-italic/
- *
- * Webfont: NeueHaasUnicaPro-Light by Linotype
- * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/light/
- *
- * Webfont: NeueHaasUnicaPro-MediumIt by Linotype
- * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/medium-italic/
- *
- * Webfont: NeueHaasUnicaPro-Medium by Linotype
- * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/medium/
- *
- * Webfont: NeueHaasUnicaPro-Regular by Linotype
- * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/regular/
- *
- * Webfont: NeueHaasUnicaPro-ThinItalic by Linotype
- * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/thin-italic/
- *
- * Webfont: NeueHaasUnicaPro-Thin by Linotype
- * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/thin/
- *
- * Webfont: NeueHaasUnicaPro-UltLightIt by Linotype
- * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/ultra-light-italic/
- *
- * Webfont: NeueHaasUnicaPro-UltraLight by Linotype
- * URL: https://www.myfonts.com/fonts/linotype/neue-haas-unica/ultra-light/
- *
- *
- * Webfonts copyright: Copyright &amp;#x00A9; 2016 Monotype Imaging Inc. All rights reserved.
- *
- * © 2021 MyFonts Inc
-*/
-/* @import must be at top of file, otherwise CSS will not work */
-@import url("//hello.myfonts.net/count/3ee274");
-@font-face {
-  font-family: "NeueHaasUnicaPro-XBlackIt";
-  src: url("../webFonts/NeueHaasUnicaProXBlackIt/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProXBlackIt/font.woff") format("woff"); }
-@font-face {
-  font-family: "NeueHaasUnicaPro-Regular";
-  src: url("../webFonts/NeueHaasUnicaProRegular/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProRegular/font.woff") format("woff"); }
-@font-face {
-  font-family: "NeueHaasUnicaPro-UltLightIt";
-  src: url("../webFonts/NeueHaasUnicaProUltLightIt/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProUltLightIt/font.woff") format("woff"); }
-@font-face {
-  font-family: "NeueHaasUnicaPro-BlackIt";
-  src: url("../webFonts/NeueHaasUnicaProBlackIt/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProBlackIt/font.woff") format("woff"); }
-@font-face {
-  font-family: "NeueHaasUnicaPro-Thin";
-  src: url("../webFonts/NeueHaasUnicaProThin/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProThin/font.woff") format("woff"); }
-@font-face {
-  font-family: "NeueHaasUnicaPro-XBlack";
-  src: url("../webFonts/NeueHaasUnicaProXBlack/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProXBlack/font.woff") format("woff"); }
-@font-face {
-  font-family: "NeueHaasUnicaPro-ThinItalic";
-  src: url("../webFonts/NeueHaasUnicaProThinItalic/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProThinItalic/font.woff") format("woff"); }
-@font-face {
-  font-family: "NeueHaasUnicaPro-LightIt";
-  src: url("../webFonts/NeueHaasUnicaProLightIt/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProLightIt/font.woff") format("woff"); }
-@font-face {
-  font-family: "NeueHaasUnicaPro-Medium";
-  src: url("../webFonts/NeueHaasUnicaProMedium/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProMedium/font.woff") format("woff"); }
-@font-face {
-  font-family: "NeueHaasUnicaPro-UltraLight";
-  src: url("../webFonts/NeueHaasUnicaProUltraLight/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProUltraLight/font.woff") format("woff"); }
-@font-face {
-  font-family: "NeueHaasUnicaPro-Black";
-  src: url("../webFonts/NeueHaasUnicaProBlack/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProBlack/font.woff") format("woff"); }
-@font-face {
-  font-family: "NeueHaasUnicaPro-Heavy";
-  src: url("../webFonts/NeueHaasUnicaProHeavy/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProHeavy/font.woff") format("woff"); }
-@font-face {
-  font-family: "NeueHaasUnicaPro-MediumIt";
-  src: url("../webFonts/NeueHaasUnicaProMediumIt/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProMediumIt/font.woff") format("woff"); }
-@font-face {
-  font-family: "NeueHaasUnicaPro-Light";
-  src: url("../webFonts/NeueHaasUnicaProLight/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProLight/font.woff") format("woff"); }
-@font-face {
-  font-family: "NeueHaasUnicaPro-Bold";
-  src: url("../webFonts/NeueHaasUnicaProBold/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProBold/font.woff") format("woff"); }
-@font-face {
-  font-family: "NeueHaasUnicaPro-BoldItalic";
-  src: url("../webFonts/NeueHaasUnicaProBoldItalic/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProBoldItalic/font.woff") format("woff"); }
-@font-face {
-  font-family: "NeueHaasUnicaPro-HeavyIt";
-  src: url("../webFonts/NeueHaasUnicaProHeavyIt/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProHeavyIt/font.woff") format("woff"); }
-@font-face {
-  font-family: "NeueHaasUnicaPro-Italic";
-  src: url("../webFonts/NeueHaasUnicaProItalic/font.woff2") format("woff2"), url("../webFonts/NeueHaasUnicaProItalic/font.woff") format("woff"); }
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -131,18 +5,17 @@
  *    user zoom.
  */
 html {
-  font-family: sans-serif;
-  /* 1 */
-  -ms-text-size-adjust: 100%;
-  /* 2 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */ }
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
 
 /**
  * Remove default margin.
  */
 body {
-  margin: 0; }
+  margin: 0;
+}
 
 /* HTML5 display definitions
    ========================================================================== */
@@ -165,7 +38,8 @@ menu,
 nav,
 section,
 summary {
-  display: block; }
+  display: block;
+}
 
 /**
  * 1. Correct `inline-block` display not defined in IE 8/9.
@@ -175,10 +49,9 @@ audio,
 canvas,
 progress,
 video {
-  display: inline-block;
-  /* 1 */
-  vertical-align: baseline;
-  /* 2 */ }
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
 
 /**
  * Prevent modern browsers from displaying `audio` without controls.
@@ -186,7 +59,8 @@ video {
  */
 audio:not([controls]) {
   display: none;
-  height: 0; }
+  height: 0;
+}
 
 /**
  * Address `[hidden]` styling not present in IE 8/9/10.
@@ -194,7 +68,8 @@ audio:not([controls]) {
  */
 [hidden],
 template {
-  display: none; }
+  display: none;
+}
 
 /* Links
    ========================================================================== */
@@ -202,14 +77,16 @@ template {
  * Remove the gray background color from active links in IE 10.
  */
 a {
-  background-color: transparent; }
+  background-color: transparent;
+}
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
 a:active,
 a:hover {
-  outline: 0; }
+  outline: 0;
+}
 
 /* Text-level semantics
    ========================================================================== */
@@ -217,20 +94,23 @@ a:hover {
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
 abbr[title] {
-  border-bottom: 1px dotted; }
+  border-bottom: 1px dotted;
+}
 
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
 b,
 strong {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 /**
  * Address styling not present in Safari and Chrome.
  */
 dfn {
-  font-style: italic; }
+  font-style: italic;
+}
 
 /**
  * Address variable `h1` font-size and margin within `section` and `article`
@@ -238,20 +118,23 @@ dfn {
  */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0; }
+  margin: 0.67em 0;
+}
 
 /**
  * Address styling not present in IE 8/9.
  */
 mark {
   background: #ff0;
-  color: #000; }
+  color: #000;
+}
 
 /**
  * Address inconsistent and variable font size in all browsers.
  */
 small {
-  font-size: 80%; }
+  font-size: 80%;
+}
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
@@ -261,13 +144,16 @@ sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 sup {
-  top: -0.5em; }
+  top: -0.5em;
+}
 
 sub {
-  bottom: -0.25em; }
+  bottom: -0.25em;
+}
 
 /* Embedded content
    ========================================================================== */
@@ -275,13 +161,15 @@ sub {
  * Remove border when inside `a` element in IE 8/9/10.
  */
 img {
-  border: 0; }
+  border: 0;
+}
 
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
 svg:not(:root) {
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 /* Grouping content
    ========================================================================== */
@@ -289,7 +177,8 @@ svg:not(:root) {
  * Address margin not present in IE 8/9 and Safari.
  */
 figure {
-  margin: 1em 40px; }
+  margin: 1em 40px;
+}
 
 /**
  * Address differences between Firefox and other browsers.
@@ -297,13 +186,15 @@ figure {
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  height: 0; }
+  height: 0;
+}
 
 /**
  * Contain overflow in all browsers.
  */
 pre {
-  overflow: auto; }
+  overflow: auto;
+}
 
 /**
  * Address odd `em`-unit font size rendering in all browsers.
@@ -313,7 +204,8 @@ kbd,
 pre,
 samp {
   font-family: monospace, monospace;
-  font-size: 1em; }
+  font-size: 1em;
+}
 
 /* Forms
    ========================================================================== */
@@ -332,18 +224,17 @@ input,
 optgroup,
 select,
 textarea {
-  color: inherit;
-  /* 1 */
-  font: inherit;
-  /* 2 */
-  margin: 0;
-  /* 3 */ }
+  color: inherit; /* 1 */
+  font: inherit; /* 2 */
+  margin: 0; /* 3 */
+}
 
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
 button {
-  overflow: visible; }
+  overflow: visible;
+}
 
 /**
  * Address inconsistent `text-transform` inheritance for `button` and `select`.
@@ -353,7 +244,8 @@ button {
  */
 button,
 select {
-  text-transform: none; }
+  text-transform: none;
+}
 
 /**
  * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
@@ -363,20 +255,20 @@ select {
  *    `input` and others.
  */
 button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-  -webkit-appearance: button;
-  /* 2 */
-  cursor: pointer;
-  /* 3 */ }
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+}
 
 /**
  * Re-set default cursor for disabled elements.
  */
 button[disabled],
 html input[disabled] {
-  cursor: default; }
+  cursor: default;
+}
 
 /**
  * Remove inner padding and border in Firefox 4+.
@@ -384,14 +276,16 @@ html input[disabled] {
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 /**
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
 input {
-  line-height: normal; }
+  line-height: normal;
+}
 
 /**
  * It's recommended that you don't attempt to style these elements.
@@ -400,43 +294,43 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-input[type="checkbox"],
-input[type="radio"] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */ }
+input[type=checkbox],
+input[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
 
 /**
  * Fix the cursor style for Chrome's increment/decrement buttons. For certain
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-  height: auto; }
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
 
 /**
  * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
  *    (include `-moz` to future-proof).
  */
-input[type="search"] {
-  -webkit-appearance: textfield;
-  /* 1 */
+input[type=search] {
+  -webkit-appearance: textfield; /* 1 */
   -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
-  /* 2 */
-  box-sizing: content-box; }
+  -webkit-box-sizing: content-box; /* 2 */
+  box-sizing: content-box;
+}
 
 /**
  * Remove inner padding and search cancel button in Safari and Chrome on OS X.
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none; }
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
 
 /**
  * Define consistent border, margin, and padding.
@@ -444,30 +338,32 @@ input[type="search"]::-webkit-search-decoration {
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em; }
+  padding: 0.35em 0.625em 0.75em;
+}
 
 /**
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
 legend {
-  border: 0;
-  /* 1 */
-  padding: 0;
-  /* 2 */ }
+  border: 0; /* 1 */
+  padding: 0; /* 2 */
+}
 
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
 textarea {
-  overflow: auto; }
+  overflow: auto;
+}
 
 /**
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
 optgroup {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 /* Tables
    ========================================================================== */
@@ -476,111 +372,189 @@ optgroup {
  */
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
 td,
 th {
-  padding: 0; }
+  padding: 0;
+}
 
+header {
+  padding: 2.5% 5%;
+  margin-bottom: -30px;
+}
+
+@media (min-width: 550px) {
+  header {
+    padding: 5% 9%;
+    margin-bottom: 0px;
+  }
+}
 body {
+  border: 8px solid #050aa1;
+  color: #050aa1;
   line-height: 1.6;
-  font-size: 1.25rem;
-  font-family: "NeueHaasUnicaPro-Regular", "HelveticaNeue", Helvetica, sans-serif; }
+  font-size: 1.5rem;
+  font-family: neue-haas-unica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-attachment: fixed;
+  background-color: white;
+  background-image: radial-gradient(at 59% 30%, hsl(216deg, 0%, 100%) 0px, transparent 50%), radial-gradient(at 70% 74%, rgb(255, 255, 0) 0px, transparent 50%), url("data:image/svg+xml,%3Csvg viewBox='0 0 5000 5000' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.98' numOctaves='10' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  filter: contrast(100%) brightness(110%);
+}
 
+@media (min-width: 550px) {
+  body {
+    font-size: 1.8rem;
+  }
+}
 .container {
   position: relative;
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
   padding: 0 20px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 /* Larger than phablet */
 @media (min-width: 550px) {
   .container {
-    width: 71%;
-    padding: 0; } }
+    width: 81%;
+    padding: 0;
+  }
+}
 /* Larger than tablet */
 @media (min-width: 750px) {
   .container {
-    width: 55%;
-    padding: 0; } }
+    width: 65%;
+    padding: 0;
+  }
+}
 /* Larger than desktop */
 @media (min-width: 1600px) {
   .container {
-    width: 42%;
-    padding: 0; } }
+    width: 52%;
+    padding: 0;
+  }
+}
 /* Larger than Desktop HD */
 @media (min-width: 1800px) {
   .container {
-    width: 27%;
-    padding: 0; } }
+    width: 37%;
+    padding: 0;
+  }
+}
 h1 {
-  font-size: 41px;
-  line-height: 1.2;
-  font-weight: normal;
-  font-family: "NeueHaasUnicaPro-Bold", "HelveticaNeue", Helvetica, sans-serif; }
+  font-size: 2rem;
+  font-weight: 800;
+}
 
-@media screen and (min-width: 29.375em) {
+h1 a {
+  font-family: neue-haas-unica, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2rem;
+  text-decoration: underline !important;
+  border-bottom: 0;
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
   h1 {
-    font-size: 31px;
-    line-height: 1.161290323; } }
-@media screen and (min-width: 37.5625em) {
+    font-size: 3.3rem;
+  }
+  h1 a {
+    font-size: 3.3rem;
+  }
+}
+/* Larger than tablet */
+@media (min-width: 1600px) {
   h1 {
-    font-size: 37px;
-    line-height: 1.135135135; } }
-@media screen and (min-width: 43.75em) {
-  h1 {
-    font-size: 41px;
-    line-height: 1.170731707; } }
-@media screen and (min-width: 68em) {
-  h1 {
-    font-size: 50px;
-    line-height: 1.12; } }
+    font-size: 3.8rem;
+  }
+  h1 a {
+    font-size: 3.8rem;
+  }
+}
 @media (min-width: 550px) {
   p {
-    margin: 0 0 24px; } }
+    margin: 0 0 24px;
+  }
+}
 a {
-  color: black;
-  text-shadow: 2px 0 0 #ffffff, -2px 0 0 #ffffff; }
+  color: #050aa1;
+  font-family: corporate-a-std-urw-cond, serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.7rem;
+  text-decoration: none;
+  border-bottom-style: dotted;
+}
 
 a:hover {
-  text-decoration: none; }
+  border-bottom-style: solid;
+}
 
+/* Larger than phablet */
+@media (min-width: 550px) {
+  a {
+    font-size: 2.3rem;
+  }
+}
 hr {
-  background-color: black;
+  background-color: #050aa1;
   border: 0;
   height: 1.25px;
-  margin-bottom: 5%; }
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 
 /* Larger than phablet */
 @media (min-width: 550px) {
   hr {
-    height: 2px; } }
+    height: 2px;
+  }
+}
 @media screen and (min-width: 43.75em) {
   hr {
-    margin-bottom: 4.5%; } }
-@media (min-width: 550px) {
-  footer {
-    font-size: 1.25rem; } }
+    margin-bottom: 4%;
+  }
+}
 footer {
+  font-size: 0.7rem;
   font-weight: 400;
-  padding-bottom: 5.5%; }
-  footer a {
-    margin-right: 0.5rem; }
+  padding-bottom: 5%;
+}
+footer a {
+  margin-right: 1rem;
+  font-family: corporate-a, serif;
+}
 
-body {
-  border: 3px solid black; }
+.quote {
+  font-family: corporate-a, serif;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 2.5rem;
+  font-style: italic;
+}
 
-header {
-  padding-top: 6%; }
+.email {
+  font-family: neue-haas-unica, serif;
+  font-style: normal;
+  font-size: 1.4rem;
+  font-family: neue-haas-unica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
+/* Larger than phablet */
 @media (min-width: 550px) {
-  nav {
-    font-size: 1.25rem; } }
-nav {
-  font-weight: 400; }
-  nav a {
-    margin-right: 0.5rem; }
+  .email {
+    font-size: 1.8rem;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
