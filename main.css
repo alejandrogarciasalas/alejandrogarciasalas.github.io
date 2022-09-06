@@ -29,18 +29,8 @@ img {
 }
 
 h1 {
-  padding-top: 1rem;
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: bold;
-  position: absolute;
-  /* letter-spacing: 1000px; */
-  /* opacity: 0.8; */
-}
-
-h2 {
-  padding-left: 10px;
-  font-size: 2.5rem;
-  /* text-align: center; */
 }
 
 @media (max-width: 550px) {
@@ -60,7 +50,7 @@ a {
 }
 
 header {
-  position: relative;
+  padding-top: 4rem;
 }
 
 main {
@@ -71,30 +61,12 @@ main {
 }
 
 .container {
-  max-width: 1100px;
+  max-width: 1300px;
   margin-right: auto;
   margin-left: auto;
 }
 
-.char {
-  /* --i: calc(50% / var(--char-total)); */
-  --offset: calc(var(--char-index) * 2rem);
-  offset-path: path(
-    "M 33.75 122.4 C 328.75 248 425 43 703.75 17 C 1023 38 1079 189 1237.5 208 c 173.5 25 508.9219 -11.056 1040.625 -180.8"
-  );
-  offset-distance: var(--offset);
-  position: absolute;
-  animation: move 2000ms infinite alternate forwards var(--delay, 0ms);
-}
-
-@keyframes move {
-  100% {
-    /* --i: 2rem; */
-    offset-distance: calc(var(--offset) + 12rem);
-  }
-}
-
-.shimmer {
+/* .shimmer {
   text-align: center;
 
   background: linear-gradient(
@@ -113,40 +85,23 @@ main {
   -webkit-text-fill-color: transparent;
 
   animation: shine 2s linear infinite;
-}
+} */
 
-@keyframes shine {
+/* @keyframes shine {
   to {
     background-position: 200% center;
   }
 }
+*/
+
 hr {
-  border: blue 1px solid;
+  border: #050aa1 1px solid;
 }
 
 footer {
-  padding-left: 150px;
-  margin-bottom: px;
+  padding: 30px;
 }
+
 footer a {
   padding-right: 20px;
 }
-
-/* .gradient {
-  background: radial-gradient(
-      circle at 50% 50%,
-      rgba(0, 0, 0, 1),
-      rgba(0, 0, 0, 0)
-    ),
-    url("data:image/svg+xml,%3Csvg viewBox='0 0 600 600' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
-  filter: contrast(145%) brightness(650%) invert(100%);
-  mix-blend-mode: screen;
-}
-
-.isolate {
-  isolation: isolate;
-  position: absolute;
-  top: 0;
-  height: 100%;
-  width: 100%;
-} */
