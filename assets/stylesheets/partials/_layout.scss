@@ -1,3 +1,7 @@
+html {
+  --main-color: rgb(41, 41, 41);
+}
+
 header {
   padding: 2% 5%;
   margin-bottom: -30px;
@@ -11,8 +15,8 @@ header {
 }
 
 body {
-  border: 1px solid #050aa1;
-  color: #050aa1;
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
   line-height: 1.6;
   font-size: 1.2rem;
   font-family: neue-haas-unica, sans-serif;
@@ -21,9 +25,9 @@ body {
   background-color: white;
   background-image: radial-gradient(at 59% 30%,
       hsla(216, 0%, 100%, 1) 0px,
-      transparent 50%),
-    radial-gradient(at 70% 74%, rgb(255, 255, 0) 0px, transparent 40%),
-    url("data:image/svg+xml,%3Csvg viewBox='0 0 5000 5000' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.98' numOctaves='10' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+      transparent 50%);
+    // radial-gradient(at 70% 74%, rgb(255, 255, 0) 0px, transparent 40%);
+    // url("data:image/svg+xml,%3Csvg viewBox='0 0 5000 5000' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.98' numOctaves='10' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
 
   filter: contrast(100%) brightness(110%);
 }
@@ -31,7 +35,7 @@ body {
 @media (min-width: 550px) {
   body {
     font-size: 1.8rem;
-    border: 8px solid #050aa1;
+    border: 8px solid var(--main-color);
   }
 }
 
@@ -119,7 +123,7 @@ h1 a {
 }
 
 a {
-  color: #050aa1;
+  color: var(--main-color);
   font-family: corporate-a-std-urw-cond, serif;
   font-style: italic;
   font-weight: 400;
@@ -139,7 +143,7 @@ a:hover { border-bottom-style: solid  }
 }
 
 hr {
-  background-color: #050aa1;
+  background-color: var(--main-color);
   border: 0;
   height: 1.25px;
   margin-top: 5%;
