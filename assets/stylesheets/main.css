@@ -414,7 +414,7 @@ body {
 
 @media (min-width: 550px) {
   body {
-    font-size: 1.8rem;
+    font-size: 1.75rem;
     border: 8px solid var(--main-color);
   }
 }
@@ -481,7 +481,7 @@ h1 a {
 /* Larger than tablet */
 @media (min-width: 1600px) {
   h1 {
-    font-size: 4.9rem;
+    font-size: 5.2rem;
   }
   h1 a {
     font-size: 3.8rem;
