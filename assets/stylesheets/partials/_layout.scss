@@ -1,19 +1,35 @@
-html {
+// Variables
+:root {
   --main-color: rgb(41, 41, 41);
 }
 
+// Header
 header {
   padding: 2% 5%;
   margin-bottom: -30px;
-}
 
-@media (min-width: 550px) {
-  header {
+  @media (min-width: 550px) {
     padding: 5% 9%;
     margin-bottom: 0px;
   }
 }
 
+// Heading
+h1 {
+  font-size: 2rem;
+  font-weight: 800;
+
+
+  @media (min-width: 550px) {
+    font-size: 3.8rem;
+  }
+
+  @media (min-width: 1600px) {
+    font-size: 4.9rem;
+  }
+}
+
+// Body
 body {
   border: 1px solid var(--main-color);
   color: var(--main-color);
@@ -22,24 +38,15 @@ body {
   font-family: neue-haas-unica, sans-serif;
   font-weight: 400;
   font-style: normal;
-  background-color: white;
-  background-image: radial-gradient(at 59% 30%,
-      hsla(216, 0%, 100%, 1) 0px,
-      transparent 50%);
-    // radial-gradient(at 70% 74%, rgb(255, 255, 0) 0px, transparent 40%);
-    // url("data:image/svg+xml,%3Csvg viewBox='0 0 5000 5000' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.98' numOctaves='10' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
 
-  filter: contrast(100%) brightness(110%);
-}
 
-@media (min-width: 550px) {
-  body {
+  @media (min-width: 550px) {
     font-size: 1.8rem;
     border: 8px solid var(--main-color);
   }
 }
 
-
+// Container
 .container {
   position: relative;
   width: 100%;
@@ -47,81 +54,39 @@ body {
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
-}
 
-/* Larger than phablet */
-@media (min-width: 550px) {
-  .container {
+  @media (min-width: 550px) {
     width: 81%;
     padding: 0;
   }
-}
 
-/* Larger than tablet */
-@media (min-width: 750px) {
-  .container {
+  @media (min-width: 750px) {
     width: 65%;
     padding: 0;
   }
-}
 
-/* Larger than desktop */
-@media (min-width: 1600px) {
-  .container {
+  @media (min-width: 1600px) {
     width: 52%;
     padding: 0;
   }
-}
 
-/* Larger than Desktop HD */
-@media (min-width: 1800px) {
-  .container {
+  @media (min-width: 1800px) {
     width: 37%;
     padding: 0;
   }
 }
 
-h1 {
-  font-size: 2rem;
-  font-weight: 800;
-}
 
-h1 a {
-  font-family: neue-haas-unica, sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 1.8rem;
-  text-decoration: underline !important;
-  border-bottom: 0;
+// Paragraph
+p {
+  margin: 0 0 24px;
 
-}
-
-/* Larger than phablet */
-@media (min-width: 550px) {
-  h1 {
-    font-size: 3.8rem;
-  }
-  h1 a {
-    font-size: 3.3rem;
-  }
-}
-
-/* Larger than tablet */
-@media (min-width: 1600px) {
-  h1 {
-    font-size: 4.9rem;
-  }
-  h1 a {
-    font-size: 3.8rem;
-  }
-}
-
-@media (min-width: 550px) {
-  p {
+  @media (min-width: 550px) {
     margin: 0 0 24px;
   }
 }
 
+// Link
 a {
   color: var(--main-color);
   font-family: corporate-a-std-urw-cond, serif;
@@ -130,63 +95,48 @@ a {
   font-size: 1.3rem;
   text-decoration: none;
   border-bottom-style: dotted;
-}
 
-a:hover { border-bottom-style: solid  }
+  &:hover {
+    border-bottom-style: solid;
+  }
 
-
-/* Larger than phablet */
-@media (min-width: 550px) {
-  a {
+  @media (min-width: 550px) {
     font-size: 2.1rem;
   }
 }
 
+// Horizontal Rule
 hr {
   background-color: var(--main-color);
   border: 0;
   height: 1.25px;
   margin-top: 5%;
   margin-bottom: 5%;
-}
 
-/* Larger than phablet */
-@media (min-width: 550px) {
-  hr {
+  @media (min-width: 550px) {
     height: 2px;
   }
-}
 
-@media screen and (min-width: 43.75em) {
-  hr {
+  @media screen and (min-width: 43.75em) {
     margin-bottom: 4%;
   }
 }
 
+// Footer
 footer {
   font-size: 0.7rem;
   font-weight: 400;
+
   a {
     margin-right: 1rem;
     font-family: corporate-a, serif;
   }
+
   padding-bottom: 5%;
 }
 
-.quote {
-  font-family: corporate-a, serif;
-  font-size: 1.2rem;
-  font-weight: 300;
-  margin-bottom: 2.5rem;
-  font-style: italic;
-}
 
-@media (min-width: 550px) {
-  .quote {
-    font-size: 2rem;
-  }
-}
-
+// Email
 .email {
   font-family: neue-haas-unica, serif;
   font-style: normal;
@@ -194,11 +144,8 @@ footer {
   font-family: neue-haas-unica, sans-serif;
   font-weight: 400;
   font-style: normal;
-}
 
-/* Larger than phablet */
-@media (min-width: 550px) {
-  .email {
+  @media (min-width: 550px) {
     font-size: 1.8rem;
   }
 }
