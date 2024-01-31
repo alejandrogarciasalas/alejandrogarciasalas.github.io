@@ -290,6 +290,9 @@ a {
   text-decoration-thickness: 1px;
   text-underline-offset: 1.8px;
 }
+a:hover {
+  text-decoration: none;
+}
 
 footer {
   border-top: 1px solid var(--main-color);
