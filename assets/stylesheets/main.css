@@ -251,14 +251,15 @@ summary {
 
 :root {
   --main-color: rgb(41, 41, 41);
-  --content-width: 650px;
+  --content-width: 666px;
 }
 
 h1 {
-  font-size: 36px;
-  line-height: 1.6;
+  font-size: 46px;
+  line-height: 1.2;
   font-weight: 800;
-  margin-bottom: 32px;
+  margin-top: 32px;
+  margin-bottom: 38px;
 }
 
 body {
@@ -275,7 +276,7 @@ main {
   width: 100%;
   max-width: var(--content-width);
   margin: 0 auto;
-  padding: 24px 0;
+  padding: 36px 16px 21px;
 }
 
 p {
@@ -287,12 +288,12 @@ a {
   font-weight: 400;
   text-decoration: underline;
   text-decoration-thickness: 1px;
-  text-underline-offset: 2.5px;
+  text-underline-offset: 1.8px;
 }
 
 footer {
   border-top: 1px solid var(--main-color);
-  padding: 24px 0;
+  padding: 19px 16px 32px;
   width: 100%;
   max-width: var(--content-width);
   margin: 0 auto;
