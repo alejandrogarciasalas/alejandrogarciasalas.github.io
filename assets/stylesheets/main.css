@@ -256,8 +256,11 @@ summary {
 }
 
 a {
-  transition: 240ms;
+  transition: 0.24s;
+  transition-property: -webkit-text-decoration-color, -webkit-text-decoration-style;
   transition-property: text-decoration-color, text-decoration-style;
+  transition-property: text-decoration-color, text-decoration-style, -webkit-text-decoration-color, -webkit-text-decoration-style;
+  -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
   text-decoration-thickness: 1px;
   text-underline-offset: 2.5px;
@@ -290,7 +293,7 @@ body {
   display: flex;
   flex-direction: column;
   max-width: var(--content-width);
-  padding: 120px 8px 60px;
+  padding: 120px 8px 24px;
   margin: 0 auto;
   animation: blurFadeIn 0.75s ease-in-out;
 }
