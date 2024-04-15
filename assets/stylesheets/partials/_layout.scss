@@ -6,15 +6,16 @@
 
 a {
   transition: 240ms;
-  transition-property: text-decoration-color;
-  text-decoration: underline;
-  text-decoration-color: #c7c7c7;
+  transition-property: text-decoration-color, text-decoration-style;
+  text-decoration: underline dotted;
+  // text-decoration-color: #c7c7c7;
   text-decoration-thickness: 1px;
   text-underline-offset: 2.5px;
   color: var(--main-color);
 
   &:hover {
     text-decoration-color: #6f6f6f;
+    text-decoration-style: solid;
   }
 }
 
