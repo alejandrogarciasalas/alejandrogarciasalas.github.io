@@ -37,16 +37,90 @@ _____ __  __  ______       __  __   __  ______ ______  ______  __   __  ______ _
   </head>
 
   <body>
-    <div class="container">
+    <div id="dappled-light">
+      <div id="glow"></div>
+      <div id="glow-bounce"></div>
+      <div class="perspective">
+        <div id="leaves">
+          <svg style="width: 0; height: 0; position: absolute">
+            <defs>
+              <filter id="wind" x="-20%" y="-20%" width="140%" height="140%">
+                <feTurbulence type="fractalNoise" numOctaves="2" seed="1">
+                  <animate
+                    attributeName="baseFrequency"
+                    dur="16s"
+                    keyTimes="0;0.33;0.66;1"
+                    values="0.005 0.003;0.01 0.009;0.008 0.004;0.005 0.003"
+                    repeatCount="indefinite"
+                  />
+                </feTurbulence>
+                <feDisplacementMap in="SourceGraphic">
+                  <animate
+                    attributeName="scale"
+                    dur="20s"
+                    keyTimes="0;0.25;0.5;0.75;1"
+                    values="45;55;75;55;45"
+                    repeatCount="indefinite"
+                  />
+                </feDisplacementMap>
+              </filter>
+            </defs>
+          </svg>
+        </div>
+        <div id="blinds">
+          <div class="shutters">
+            <div class="shutter"></div>
+            <div class="shutter"></div>
+            <div class="shutter"></div>
+            <div class="shutter"></div>
+            <div class="shutter"></div>
+            <div class="shutter"></div>
+            <div class="shutter"></div>
+            <div class="shutter"></div>
+            <div class="shutter"></div>
+            <div class="shutter"></div>
+            <div class="shutter"></div>
+            <div class="shutter"></div>
+            <div class="shutter"></div>
+            <div class="shutter"></div>
+            <div class="shutter"></div>
+            <div class="shutter"></div>
+            <div class="shutter"></div>
+            <div class="shutter"></div>
+            <div class="shutter"></div>
+            <div class="shutter"></div>
+            <div class="shutter"></div>
+            <div class="shutter"></div>
+            <div class="shutter"></div>
+          </div>
+          <div class="vertical">
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </div>
+      </div>
+      <div id="progressive-blur">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <!-- <div class="grain"></div> -->
+
+    <article class="container">
       <main>
-        <h1>Alejandro García Salas</h1>
-        <p>
+        <h1 style="animation: blurFadeIn 0.75s ease-in-out 0.1s both">
+          Alejandro García Salas
+        </h1>
+        <p style="animation: blurFadeIn 0.75s ease-in-out 0.2s both">
           Hello! I'm a peruvian software engineer and
           <a href="https://www.instagram.com/alegs_art">artist</a> based in San
           Francisco, California.
         </p>
 
-        <p>
+        <p style="animation: blurFadeIn 0.75s ease-in-out 0.3s both">
           I am a well-rounded product generalist specializing in design, user
           experience and frontend engineering. Most recently, I was a Founding
           Software Engineer at
@@ -74,7 +148,7 @@ _____ __  __  ______       __  __   __  ______ ______  ______  __   __  ______ _
           and my portfolio <a href="https://portfolio.alejandro.pe">here</a>.
         </p>
 
-        <p>
+        <p style="animation: blurFadeIn 0.75s ease-in-out 0.4s both">
           I first got into tech by making my own
           <a
             href="https://alejandrogarciasalas.notion.site/Archive-My-Games-d33ca37090b045bdbfaf8196b062bcad"
@@ -90,20 +164,20 @@ _____ __  __  ______       __  __   __  ______ ______  ______  __   __  ______ _
           new languages, taking very long walks, and drinking tea.
         </p>
 
-        <p>
+        <p style="animation: blurFadeIn 0.75s ease-in-out 0.5s both">
           I strive to live a life of adventure and service while building the
           future I want to see. I live with optimism, seeking balance and
           authenticity in everything I do. I exist first and foremost to love.
           🫶🏽
         </p>
       </main>
-      <footer>
+      <footer style="animation: blurFadeIn 0.75s ease-in-out 0.6s both">
         <a href="mailto:garciasalasalejandro@gmail.com">email</a>
         <a href="https://www.linkedin.com/in/alejandrogarciasalas">linkedin</a>
         <a href="https://github.com/alejandrogarciasalas">github</a>
         <a href="https://twitter.com/whatisalejandro">twitter</a>
         <a href="https://instagram.com/alegs_111">instagram</a>
       </footer>
-    </div>
+    </article>
   </body>
 </html>
