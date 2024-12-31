@@ -46,22 +46,23 @@ body {
   max-width: var(--content-width);
   padding: 120px 8px 24px;
   margin: 0 auto;
-  animation: blurFadeIn 0.75s ease-in-out;
+  // animation: blurFadeIn 0.75s ease-in-out;
 }
 
 main {
 }
 
-@keyframes blurFadeIn {
-  0% {
-    filter: blur(10px);
-    opacity: 0;
-  }
-  100% {
-    filter: blur(0);
-    opacity: 1;
-  }
-}
+// @keyframes blurFadeIn {
+//   0% {
+//     filter: blur(10px);
+//     opacity: 0;
+//   }
+//   100% {
+//     filter: blur(0);
+//     opacity: 1;
+//   }
+// }
+
 p {
   margin: 0;
   padding-bottom: 16px;
