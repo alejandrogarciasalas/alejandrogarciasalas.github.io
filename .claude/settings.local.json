@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc:*)",
+      "Bash(cat:*)",
+      "Bash(python3:*)",
+      "Bash(find:*)",
+      "Bash(git -C /Users/alejandro/code/alejandrogarciasalas.github.io rm:*)",
+      "Bash(git -C /Users/alejandro/code/alejandrogarciasalas.github.io status)"
+    ]
+  }
+}
